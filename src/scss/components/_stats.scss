@@ -1,0 +1,26 @@
+.stats-contain {
+  background-color: $color-primary;
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .stats-1,
+    .stats-3,
+    .stats-5,
+    .stats-7 {
+      font-size: 2.2rem;
+      padding: 3rem 0;
+      font-weight: 400;
+      color: white;
+    }
+    .stats-2,
+    .stats-4,
+    .stats-6 {
+      width: 0.1rem;
+      height: 6rem;
+      background-color: white;
+      opacity: 0.4;
+      vertical-align: middle;
+    }
+  }
+}

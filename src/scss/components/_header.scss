@@ -7,10 +7,10 @@
     align-items: center;
     color: white;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     width: 100%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-45%);
 
     &-heading {
       h1 {
@@ -39,7 +39,7 @@
   .whatsApp-btn {
     position: absolute;
     bottom: 3rem;
-    right: 1rem;
+    right: 0;
     a {
       img {
         width: 40%;
