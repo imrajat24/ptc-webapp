@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  background-color: white;
+  width: 114rem;
+  &_logo {
+    width: 20%;
+    img {
+      width: 40%;
+    }
+  }
+  &_menu {
+    width: 40%;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      li {
+        .active {
+          color: $color-primary;
+        }
+      }
+      li a {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: $color-heading;
+        font-size: 1.6rem;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+  }
+  &_btn {
+    width: 20%;
+    text-align: right;
+  }
+}
