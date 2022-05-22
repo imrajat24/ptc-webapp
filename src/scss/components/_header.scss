@@ -1,3 +1,49 @@
-.navigation {
-  box-shadow: 0 1px 10px rgb(0, 0, 0, 14%);
+.header {
+  background-image: url("https://drive.google.com/uc?export&id=1rQ02yBuLh8Gmq1Hp5RPVUb8ilt5nCaPl");
+  height: 85vh;
+  position: relative;
+  &_content {
+    display: flex;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%) translateY(-50%);
+
+    &-heading {
+      h1 {
+        font-size: 3.6rem;
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+      }
+      h3 {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 3.6rem;
+      }
+    }
+    &-images {
+      display: flex;
+      justify-content: flex-end;
+      text-align: right;
+      a {
+        cursor: pointer;
+        img {
+          width: 90%;
+        }
+      }
+    }
+  }
+  .whatsApp-btn {
+    position: absolute;
+    bottom: 3rem;
+    right: 1rem;
+    a {
+      img {
+        width: 40%;
+      }
+    }
+  }
 }
