@@ -1,0 +1,14 @@
+.heading-section {
+  text-transform: capitalize;
+  font-size: 3rem;
+  color: $color-heading;
+  font-weight: 600;
+  &-secondary {
+    font-weight: 400;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    span {
+      font-weight: 600;
+    }
+  }
+}

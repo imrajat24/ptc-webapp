@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Nav from "../components/Navigation";
 import Stats from "../components/Stats";
+import Issues from "../components/Sec_Issues";
 const HomePage = () => {
   return (
     <div>
@@ -9,6 +10,7 @@ const HomePage = () => {
       </div>
       <Header />
       <Stats />
+      <Issues />
     </div>
   );
 };

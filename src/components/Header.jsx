@@ -1,7 +1,21 @@
 import imgHardware from "../images/hardware-card.png";
 import imgSteel from "../images/steel-card.png";
 import whatsAppImg from "../images/whatsapp.png";
+import { motion } from "framer-motion";
 const Header = () => {
+  const imgVariants = {
+    hidden: {
+      y: -3,
+    },
+    final: {
+      y: 3,
+      transition: {
+        type: "Tween",
+        duration: 1,
+        yoyo: Infinity,
+      },
+    },
+  };
   return (
     <div className="header">
       <div className="header_content row">
@@ -14,12 +28,22 @@ const Header = () => {
           </h3>
         </div>
         <div className="header_content-images">
-          <a to="/">
+          <motion.a
+            to="/"
+            variants={imgVariants}
+            initial="hidden"
+            animate="final"
+          >
             <img src={imgHardware} alt="hardware" />
-          </a>
-          <a to="/">
+          </motion.a>
+          <motion.a
+            to="/"
+            variants={imgVariants}
+            initial="hidden"
+            animate="final"
+          >
             <img src={imgSteel} alt="steel" />
-          </a>
+          </motion.a>
         </div>
       </div>
       <div className="whatsApp-btn">
