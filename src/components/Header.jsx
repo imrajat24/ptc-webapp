@@ -27,7 +27,7 @@ const Header = () => {
             requirements.
           </h3>
         </div>
-        <div className="header_content-images">
+        <div className="header_content-images card-contain">
           <motion.a
             to="/"
             variants={imgVariants}

@@ -5,7 +5,7 @@ import issueImg3 from "../images/issue-3.png";
 const Sec_Issues = () => {
   return (
     <section className="sec_issues row">
-      <div className="sec_issues-heading">
+      <div className="sec_issues-heading ">
         <h2 className="heading-section">issues in current market</h2>
         <h3 className="heading-section-secondary">
           Hardware market is filled with <span> SCAMS </span>which makes the

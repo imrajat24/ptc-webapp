@@ -1,0 +1,52 @@
+.sec_process-heading {
+  margin-bottom: 6rem;
+  h2 {
+    span {
+      color: $color-primary;
+    }
+  }
+}
+
+.sec_process-content {
+  &--1,
+  &--2,
+  &--3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: $color-card-bg;
+    &:not(:last-of-type) {
+      margin-bottom: 1rem;
+    }
+
+    &_content {
+      width: 50%;
+      padding: 5rem 4rem;
+      p {
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        padding-left: 5rem;
+        font-size: 1.6rem;
+
+        &:first-of-type {
+          font-size: 2.4rem;
+          padding-left: 0;
+          font-weight: 600;
+          span {
+            margin-right: 1.8rem;
+            img {
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+    }
+    &_img {
+      text-align: end;
+      img {
+        width: 90%;
+      }
+    }
+  }
+}
