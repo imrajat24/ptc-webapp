@@ -1,6 +1,7 @@
 .btn {
   text-decoration: none;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 .btn-pri {
@@ -9,4 +10,13 @@
   padding: 1rem 3rem;
   color: white;
   background: linear-gradient(45deg, $color-gradient-1, $color-gradient-2);
+}
+
+.btn-footer {
+  border: 1px solid #3fa5d9;
+  background: none;
+  padding: 1rem 3.5rem;
+  color: #3fa5d9;
+  font-family: inherit;
+  font-weight: 600;
 }

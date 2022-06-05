@@ -1,0 +1,39 @@
+.sec_usp {
+  background-color: #ebf5fa;
+  display: flex;
+  width: 100%;
+  &-header {
+    width: 35%;
+    img {
+      width: 100%;
+      vertical-align: bottom;
+    }
+  }
+  &-content {
+    width: 60%;
+    display: grid;
+    grid-template-areas:
+      "usp1 usp2"
+      "usp3 usp4";
+    justify-items: right;
+    align-items: center;
+    img {
+      width: 80%;
+    }
+
+    .usp_1 {
+      grid-area: usp1;
+    }
+    .usp_2 {
+      grid-area: usp2;
+    }
+    .usp_3 {
+      grid-area: usp3;
+      align-self: start;
+    }
+    .usp_4 {
+      grid-area: usp4;
+      align-self: start;
+    }
+  }
+}

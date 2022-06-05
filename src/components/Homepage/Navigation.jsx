@@ -1,13 +1,5 @@
-import { useState } from "react";
-import logo from "../images/logo.png";
-const Navigation = () => {
-  // state to cross check which menu item is currently clicked in the navigation
-  const [isClicked, setIsClicked] = useState({
-    home: true,
-    about: false,
-    harware: false,
-    steel: false,
-  });
+import logo from "../../images/logo.png";
+const Navigation = ({ isClicked, setIsClicked }) => {
   return (
     <nav className="nav row">
       <div className="nav_logo">

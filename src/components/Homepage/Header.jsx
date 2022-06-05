@@ -1,6 +1,6 @@
-import imgHardware from "../images/hardware-card.png";
-import imgSteel from "../images/steel-card.png";
-import whatsAppImg from "../images/whatsapp.png";
+import imgHardware from "../../images/hardware-card.png";
+import imgSteel from "../../images/steel-card.png";
+import whatsAppImg from "../../images/whatsapp.png";
 import { motion } from "framer-motion";
 const Header = () => {
   const imgVariants = {

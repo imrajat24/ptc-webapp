@@ -1,7 +1,7 @@
-import imgHardware from "../images/hardware-card.png";
-import imgSteel from "../images/steel-card.png";
+import imgHardware from "../../images/hardware-card.png";
+import imgSteel from "../../images/steel-card.png";
+import right_arrow from "../../images/right-arrow.png";
 import { motion } from "framer-motion";
-import right_arrow from "../images/right-arrow.png";
 const Sec_cta = () => {
   const imgVariants = {
     hidden: {
