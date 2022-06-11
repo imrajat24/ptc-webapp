@@ -1,14 +1,36 @@
+import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
 const Navigation = ({ isClicked, setIsClicked }) => {
+  const body = document.body;
+  let lastScroll = 0;
+
+  window.addEventListener("scroll", () => {
+    const currentScroll = window.pageYOffset;
+
+    if (currentScroll <= 0) body.classList.remove("scroll-up");
+    if (currentScroll > lastScroll && !body.classList.contains("scroll-down")) {
+      body.classList.remove("scroll-up");
+      body.classList.add("scroll-down");
+    }
+    if (currentScroll < lastScroll && body.classList.contains("scroll-down")) {
+      body.classList.add("scroll-up");
+      body.classList.remove("scroll-down");
+    }
+
+    lastScroll = currentScroll;
+  });
+
   return (
-    <nav className="nav row">
+    <nav className="nav">
       <div className="nav_logo">
-        <img src={logo} alt="logo" />
+        <Link to="/">
+          <img src={logo} alt="logo" />
+        </Link>
       </div>
       <div className="nav_menu">
         <ul>
           <li>
-            <a
+            <Link
               to="/"
               className={isClicked.home ? "active" : ""}
               onClick={() => {
@@ -21,11 +43,11 @@ const Navigation = ({ isClicked, setIsClicked }) => {
               }}
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              to="/"
+            <Link
+              to="/about"
               className={isClicked.about ? "active" : ""}
               onClick={() => {
                 setIsClicked({
@@ -37,11 +59,11 @@ const Navigation = ({ isClicked, setIsClicked }) => {
               }}
             >
               About Us
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              to="/"
+            <Link
+              to="/hardware"
               className={isClicked.hardware ? "active" : ""}
               onClick={() => {
                 setIsClicked({
@@ -53,11 +75,11 @@ const Navigation = ({ isClicked, setIsClicked }) => {
               }}
             >
               hardware
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              to="/"
+            <Link
+              to="/steel"
               className={isClicked.steel ? "active" : ""}
               onClick={() => {
                 setIsClicked({
@@ -69,14 +91,14 @@ const Navigation = ({ isClicked, setIsClicked }) => {
               }}
             >
               steel
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
       <div className="nav_btn">
-        <a href="/" className="btn btn-pri">
+        <Link to="/contact" className="btn btn-pri">
           Contact Us
-        </a>
+        </Link>
       </div>
     </nav>
   );

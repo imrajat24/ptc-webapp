@@ -2,6 +2,7 @@ import imgHardware from "../../images/hardware-card.png";
 import imgSteel from "../../images/steel-card.png";
 import right_arrow from "../../images/right-arrow.png";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 const Sec_cta = () => {
   const imgVariants = {
     hidden: {
@@ -39,22 +40,24 @@ const Sec_cta = () => {
       </div>
 
       <div className="sec_cta-img header_content-images">
-        <motion.a
-          to="/"
-          variants={imgVariants}
-          initial="hidden"
-          animate="final"
-        >
-          <img src={imgHardware} alt="hardware" />
-        </motion.a>
-        <motion.a
-          to="/"
-          variants={imgVariants}
-          initial="hidden"
-          animate="final"
-        >
-          <img src={imgSteel} alt="steel" />
-        </motion.a>
+        <Link to="/hardware">
+          <motion.img
+            src={imgHardware}
+            alt="hardware"
+            variants={imgVariants}
+            initial="hidden"
+            animate="final"
+          />
+        </Link>
+        <Link to="/steel">
+          <motion.img
+            src={imgSteel}
+            alt="steel"
+            variants={imgVariants}
+            initial="hidden"
+            animate="final"
+          />
+        </Link>
       </div>
     </div>
   );

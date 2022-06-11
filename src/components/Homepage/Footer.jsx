@@ -1,6 +1,7 @@
 import logo from "../../images/logo_footer.png";
 import phone from "../../images/phone.png";
 import location from "../../images/location.png";
+import { Link } from "react-router-dom";
 const Footer = ({ isClicked, setIsClicked }) => {
   const scrollToTop = () => {
     window.scrollTo({
@@ -15,7 +16,7 @@ const Footer = ({ isClicked, setIsClicked }) => {
         <nav className="bottom-nav">
           <ul>
             <li>
-              <a
+              <Link
                 to="/"
                 className={isClicked.home ? "active" : ""}
                 onClick={() => {
@@ -28,12 +29,12 @@ const Footer = ({ isClicked, setIsClicked }) => {
                 }}
               >
                 home
-              </a>
+              </Link>
             </li>
             <li className="footer_dash">|</li>
             <li>
-              <a
-                to="/"
+              <Link
+                to="/about"
                 className={isClicked.about ? "active" : ""}
                 onClick={() => {
                   setIsClicked({
@@ -45,29 +46,30 @@ const Footer = ({ isClicked, setIsClicked }) => {
                 }}
               >
                 about us
-              </a>
+              </Link>
             </li>
             <li className="footer_dash">|</li>
             <li>
-              <a
-                to="/"
+              <Link
+                to="/contact"
                 className={isClicked.contact ? "active" : ""}
                 onClick={() => {
                   setIsClicked({
                     home: false,
                     about: false,
-                    contact: !isClicked.contact,
+                    contact: true,
                     privacy: false,
                   });
                 }}
               >
                 contact us
-              </a>
+              </Link>
             </li>
             <li className="footer_dash">|</li>
             <li>
               <a
-                to="/"
+                href="https://www.freeprivacypolicy.com/live/b647c38f-fe78-4aec-8604-9cbe7abeecbb"
+                target="_blank"
                 className={isClicked.privacy ? "active" : ""}
                 onClick={() => {
                   setIsClicked({

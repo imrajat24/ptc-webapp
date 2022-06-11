@@ -16,14 +16,22 @@
         display: flex;
         text-transform: capitalize;
         font-size: 1.8rem;
-        li {
-          .active {
-            color: #3fa5d9;
+        li a {
+          text-decoration: none;
+          &:active,
+          &:link,
+          &:visited {
+            color: white;
           }
         }
-        .footer_dash {
-          margin: 0 2rem;
+        li {
+          .active {
+            color: #3fa5d9 !important;
+          }
         }
+      }
+      .footer_dash {
+        margin: 0 2rem;
       }
     }
     p {

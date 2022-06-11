@@ -2,6 +2,7 @@ import imgHardware from "../../images/hardware-card.png";
 import imgSteel from "../../images/steel-card.png";
 import whatsAppImg from "../../images/whatsapp.png";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 const Header = () => {
   const imgVariants = {
     hidden: {
@@ -28,27 +29,29 @@ const Header = () => {
           </h3>
         </div>
         <div className="header_content-images card-contain">
-          <motion.a
-            to="/"
-            variants={imgVariants}
-            initial="hidden"
-            animate="final"
-          >
-            <img src={imgHardware} alt="hardware" />
-          </motion.a>
-          <motion.a
-            to="/"
-            variants={imgVariants}
-            initial="hidden"
-            animate="final"
-          >
-            <img src={imgSteel} alt="steel" />
-          </motion.a>
+          <Link to="/hardware">
+            <motion.img
+              src={imgHardware}
+              alt="hardware"
+              variants={imgVariants}
+              initial="hidden"
+              animate="final"
+            />
+          </Link>
+          <Link to="/steel">
+            <motion.img
+              src={imgSteel}
+              alt="steel"
+              variants={imgVariants}
+              initial="hidden"
+              animate="final"
+            />
+          </Link>
         </div>
       </div>
       <div className="whatsApp-btn">
         <a
-          href="https://api.whatsapp.com/send?phone=3197010240285"
+          href="https://api.whatsapp.com/send?phone=7014538659"
           target="_blank"
         >
           <img src={whatsAppImg} alt="whatsApp-btn" />
