@@ -11,7 +11,7 @@ const Footer = ({ isClicked, setIsClicked }) => {
   };
 
   return (
-    <div className="footer_contain row">
+    <div className="footer_contain">
       <div className="footer_contain-1">
         <nav className="bottom-nav">
           <ul>

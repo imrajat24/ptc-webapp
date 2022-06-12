@@ -19,9 +19,7 @@ const HomePage = ({ isClicked, setIsClicked }) => {
       <Process />
       <CTA />
       <Location />
-      <div className="footer">
-        <Footer isClicked={isClicked} setIsClicked={setIsClicked} />
-      </div>
+      <Footer isClicked={isClicked} setIsClicked={setIsClicked} />
     </div>
   );
 };

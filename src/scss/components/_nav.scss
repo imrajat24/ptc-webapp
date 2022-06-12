@@ -10,6 +10,7 @@
   transition: all 300ms ease-in-out;
   top: 0;
   left: 0;
+  box-shadow: 0 1px 10px rgb(0, 0, 0, 14%);
 
   &_logo {
     width: 20%;
@@ -49,7 +50,4 @@
 
 .scroll-down nav {
   transform: translate3d(0, -100%, 0);
-}
-.scroll-up nav {
-  box-shadow: 0 1px 10px rgb(0, 0, 0, 14%);
 }
