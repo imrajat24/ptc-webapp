@@ -23,7 +23,7 @@ const Header = () => {
         <div className="header_content-heading">
           <h1>One-Stop Solution for all the Hardware & Steel requirements</h1>
           <h3>
-            India’s finest distributors of hardware & steel products that
+            India's finest distributors of hardware & steel products that
             support industrial houses and manufacturers for all their
             requirements.
           </h3>
