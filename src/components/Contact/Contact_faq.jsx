@@ -1,4 +1,3 @@
-import Slider_faq from "../../components/Contact/Slider_faq";
 import DragDrop from "./DragDrop";
 const Contact_faq = () => {
   return (
@@ -14,7 +13,46 @@ const Contact_faq = () => {
           <h2 className="heading-section">FAQ's</h2>
         </div>
         <div className="contact_faq--faq-questions">
-          <Slider_faq />
+          <div className="question">
+            <h3>
+              1 .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
+              elit risus malesuada?
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat elit
+              risus malesuada purus a est, ac. Enim purus amet
+            </p>
+          </div>
+          <div className="question">
+            <h3>
+              2 .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
+              elit risus malesuada?
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat elit
+              risus malesuada purus a est, ac. Enim purus amet
+            </p>
+          </div>
+          <div className="question">
+            <h3>
+              3 .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
+              elit risus malesuada?
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat elit
+              risus malesuada purus a est, ac. Enim purus amet
+            </p>
+          </div>
+          <div className="question">
+            <h3>
+              4 .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
+              elit risus malesuada?
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat elit
+              risus malesuada purus a est, ac. Enim purus amet
+            </p>
+          </div>
         </div>
       </div>
       <div className="contact_faq--query">
@@ -25,35 +63,21 @@ const Contact_faq = () => {
           </h4>
         </div>
         <div className="contact_faq--query-form">
-          <form action="" enctype="multipart/form-data">
+          <form action="" encType="multipart/form-data">
             <input type="text" placeholder="full name" name="Full Name" />
             <input type="email" placeholder="email" name="Email" />
             <input type="number" placeholder="phone number" name="Number" />
             <textarea placeholder="your query" name="Query" />
+            <label>add product's image</label>
             <DragDrop />
-            <button type="submit" className="btn btn-primary">
-              Submit
+            <button type="submit" className="btn btn-pri">
+              Submit query
             </button>
           </form>
         </div>
       </div>
-      <div className="contact_faq--form"></div>
     </section>
   );
 };
 
 export default Contact_faq;
-
-// ! CSS to remove the up and down arrows of the num type
-
-/* Chrome, Safari, Edge, Opera */
-// input::-webkit-outer-spin-button,
-// input::-webkit-inner-spin-button {
-//   -webkit-appearance: none;
-//   margin: 0;
-// }
-
-// /* Firefox */
-// input[type=number] {
-//   -moz-appearance: textfield;
-// }

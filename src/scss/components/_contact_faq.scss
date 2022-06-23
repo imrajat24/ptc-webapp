@@ -1,0 +1,128 @@
+.contact_faq {
+  margin-top: 20rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  // box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.06);
+
+  &--faq {
+    width: 50%;
+    &-sec-heading {
+      p {
+        font-size: 2rem;
+        line-height: 1.6;
+      }
+      margin-bottom: 2rem;
+    }
+    &-pri-heading {
+      margin-bottom: 0.5em;
+    }
+    &-questions {
+      width: 90%;
+      .question {
+        h3 {
+          font-size: 1.8rem;
+          font-weight: 500;
+          color: #062d40;
+          margin-bottom: 2rem;
+        }
+        p {
+          font-size: 1.6rem;
+          color: #092c3d;
+          margin-bottom: 4rem;
+        }
+      }
+    }
+  }
+  &--query {
+    width: 50%;
+    padding-left: 6rem;
+    &-pri-heading {
+      margin-bottom: 3rem;
+      h2 {
+        margin-bottom: 1rem;
+      }
+      h4 {
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #092c3d;
+      }
+    }
+    &-form {
+      form {
+        display: flex;
+        flex-direction: column;
+        input,
+        textarea {
+          background-color: rgb(235, 245, 250, 0.4);
+          border: none;
+          padding: 1.5rem 2rem;
+          margin-bottom: 2rem;
+          font-family: inherit;
+          color: #092c3d;
+          width: 80%;
+          &::placeholder {
+            text-transform: capitalize;
+            color: rgba(9, 44, 61, 0.5);
+            font-size: 1.6rem;
+          }
+          &:focus {
+            outline: none;
+          }
+        }
+        label {
+          color: #092c3d;
+          font-size: 1.6rem;
+          text-transform: capitalize;
+          margin-bottom: 1rem;
+        }
+        textarea {
+          resize: none;
+          height: 20vh;
+        }
+        button {
+          width: 80%;
+          margin-top: 2rem;
+          font-family: inherit;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+// ! CSS to remove the up and down arrows of the num type
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+[type="number"] {
+  // /* Firefox */
+
+  -moz-appearance: textfield;
+}
+
+// ! CSS to style the drag and drop component
+
+// *main class
+.kiHXWb {
+  border: 1px dashed rgba(6, 45, 64, 0.5) !important;
+  width: 80%;
+  height: 10rem !important;
+  flex-direction: column;
+  svg {
+    margin-top: 1.5rem;
+  }
+  .fVfcRr {
+    margin-top: 0.25rem;
+    span {
+      color: rgba(9, 44, 61, 1);
+      span {
+        color: #0658c2;
+      }
+    }
+  }
+}

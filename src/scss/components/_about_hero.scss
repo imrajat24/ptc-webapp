@@ -1,19 +1,23 @@
 .about-hero {
   margin-top: 15rem;
   &_heading {
+    text-align: center;
+
     h1 {
-      font-size: 3.8rem;
+      font-size: 3.6rem;
       font-weight: 600;
       text-transform: capitalize;
-      text-align: center;
       color: $color-heading;
       span {
         color: #2c5981;
       }
     }
-    &:after {
-      height: 0.3rem;
+    p {
+      margin-top: 4rem;
+      height: 0.2rem;
       width: 20%;
+      display: inline-block;
+      background-color: $color-heading;
     }
   }
 
@@ -22,6 +26,7 @@
     display: flex;
     width: 100%;
     padding: 5rem 4rem;
+    background-color: #fbfdfe;
     &--img {
       width: 150%;
       img {
