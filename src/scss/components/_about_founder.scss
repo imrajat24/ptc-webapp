@@ -1,6 +1,6 @@
 .about-founder {
   padding: 6rem 8rem;
-  background-color: #ebf5fa;
+  background-color: $color-primary;
   justify-content: space-between;
   width: 100%;
   border-radius: 3rem;
@@ -11,6 +11,18 @@
     }
   }
   &_content {
-    width: 60%;
+    background-image: url("https://res.cloudinary.com/dlghjr9qx/image/upload/v1655991880/Group_168_3_qipzbw.png");
+    width: 70%;
+    background-size: cover;
+    display: flex;
+    padding: 3rem 6rem;
+    align-items: center;
+    border-radius: 2rem;
+    p {
+      font-size: 2.4rem;
+      color: white;
+      line-height: 1.6;
+      font-style: italic;
+    }
   }
 }
