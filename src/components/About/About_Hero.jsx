@@ -22,12 +22,15 @@ const About_Hero = () => {
             hardware-related product available in one place. Then, the motive
             started expanding with the expansion of our store from a small one
             consisting of only a few accessories to a large store with our
-            godowns as well. In the meantime, we partnered with some prestigious
-            brands like Asian paints, Berger paints, TATA Agrico, UNIK, JCB,
-            Hikoki, and many more to give variety to our customers. Now, a
-            family-owned and operated business has become the region’s best
-            distributor especially in hardware products that support industrial
-            houses and manufacturers for all their requirements.
+            godowns as well.
+          </p>
+          <p>
+            In the meantime, we partnered with some prestigious brands like
+            Asian paints, Berger paints, TATA Agrico, UNIK, JCB, Hikoki, and
+            many more to give variety to our customers. Now, a family-owned and
+            operated business has become the region’s best distributor
+            especially in hardware products that support industrial houses and
+            manufacturers for all their requirements.
           </p>
         </div>
       </div>

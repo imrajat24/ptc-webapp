@@ -1,0 +1,16 @@
+.about-founder {
+  padding: 6rem 8rem;
+  background-color: #ebf5fa;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 3rem;
+  &_img {
+    width: 40%;
+    img {
+      width: 80%;
+    }
+  }
+  &_content {
+    width: 60%;
+  }
+}

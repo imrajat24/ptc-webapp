@@ -1,0 +1,62 @@
+.about-portfolio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  &_content {
+    width: 50%;
+    h2 {
+      margin-bottom: 2rem;
+    }
+    P {
+      font-size: 1.8rem;
+      line-height: 1.6;
+    }
+  }
+  &_img {
+    text-align: right;
+    width: 50%;
+    svg {
+      width: 80%;
+    }
+  }
+}
+
+// ! SVG animations
+
+#circle-1 {
+  animation: rotate-1 5s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#circle-2 {
+  animation: rotate-2 4s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#circle-3 {
+  animation: rotate-1 3s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes rotate-1 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-2 {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
