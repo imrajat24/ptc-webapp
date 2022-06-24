@@ -1,6 +1,6 @@
-import search from "../../images/search.png";
-import select from "../../images/select.png";
-import phone from "../../images/contact_phone.png";
+import search from "../../images/item_search.png";
+import select from "../../images/item_select.png";
+import phone from "../../images/item_phone.png";
 
 const Item_header = ({ heading, description }) => {
   return (
@@ -31,7 +31,7 @@ const Item_header = ({ heading, description }) => {
             <div className="content">
               <h3>Select Category</h3>
               <p>
-                Select one as per your requirements and click on the “buy”
+                Select one as per your requirements and click on the "Buy”
                 button to move further.
               </p>
             </div>
