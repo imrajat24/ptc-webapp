@@ -3,6 +3,7 @@
   border: none;
   text-transform: capitalize;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .btn-pri {
@@ -11,6 +12,12 @@
   padding: 1rem 3rem;
   color: white;
   background: linear-gradient(45deg, $color-gradient-1, $color-gradient-2);
+}
+
+.btn-card {
+  font-size: 1rem;
+  padding: 0.25rem 1rem;
+  border-radius: 0.2rem;
 }
 
 .btn-footer {
