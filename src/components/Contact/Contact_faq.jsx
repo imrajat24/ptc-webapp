@@ -63,13 +63,19 @@ const Contact_faq = () => {
           </h4>
         </div>
         <div className="contact_faq--query-form">
-          <form name="query" data-netlify="true" enctype="multipart/form-data">
+          <form
+            name="query-form"
+            method="POST"
+            data-netlify="true"
+            enctype="multipart/form-data"
+          >
             <input type="text" placeholder="full name" name="Full Name" />
             <input type="email" placeholder="email" name="Email" />
             <input type="number" placeholder="phone number" name="Number" />
             <textarea placeholder="your query" name="Query" />
             <label>add product's image</label>
-            <DragDrop />
+            {/* <DragDrop /> */}
+            <input name="file" type="file" />
             <button type="submit" className="btn btn-pri">
               Submit query
             </button>
