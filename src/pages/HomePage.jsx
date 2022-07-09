@@ -10,7 +10,7 @@ import Footer from "../components/Homepage/Footer";
 
 const HomePage = ({ isClicked, setIsClicked }) => {
   return (
-    <div>
+    <>
       <Nav isClicked={isClicked} setIsClicked={setIsClicked} />
       <Header />
       <Stats />
@@ -20,7 +20,7 @@ const HomePage = ({ isClicked, setIsClicked }) => {
       <CTA />
       <Location />
       <Footer isClicked={isClicked} setIsClicked={setIsClicked} />
-    </div>
+    </>
   );
 };
 

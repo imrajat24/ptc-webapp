@@ -24,6 +24,9 @@
   border: 1px solid #3fa5d9;
   background: none;
   padding: 1rem 3.5rem;
+  @include respond(tab-pot) {
+    padding: 1rem 2rem;
+  }
   color: #3fa5d9;
   font-family: inherit;
   font-weight: 600;

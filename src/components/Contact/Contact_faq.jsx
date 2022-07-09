@@ -63,7 +63,7 @@ const Contact_faq = () => {
           </h4>
         </div>
         <div className="contact_faq--query-form">
-          <form action="" encType="multipart/form-data">
+          <form name="query" data-netlify="true" enctype="multipart/form-data">
             <input type="text" placeholder="full name" name="Full Name" />
             <input type="email" placeholder="email" name="Email" />
             <input type="number" placeholder="phone number" name="Number" />

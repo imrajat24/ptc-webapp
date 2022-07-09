@@ -21,13 +21,14 @@
       h3 {
         font-size: 2rem;
         font-weight: 400;
-        line-height: 3.6rem;
+        line-height: 3.5rem;
       }
     }
     &-images {
       display: flex;
       justify-content: flex-end;
       text-align: right;
+      position: relative;
       a {
         animation: float all 2s;
         img {
@@ -35,11 +36,46 @@
         }
       }
     }
+    // !main media query to turn layout into potrait mode
+    @include respond(tab-pot) {
+      flex-direction: column;
+      top: 55%;
+      left: 50%;
+      transforms: translate(-50%, -55%);
+      &-heading {
+        text-align: center;
+        h3 {
+          width: 85%;
+          margin: 0 auto;
+        }
+      }
+
+      &-images {
+        margin-top: 4rem;
+        a {
+          &:first-of-type {
+            text-align: right;
+            margin-right: 4rem;
+          }
+          &:last-of-type {
+            text-align: left;
+          }
+          img {
+            width: 50%;
+          }
+        }
+      }
+      .whatsApp-btn {
+        display: none;
+        pointer-events: none;
+      }
+    }
   }
   .whatsApp-btn {
     position: absolute;
-    bottom: 3rem;
+    bottom: -90%;
     right: 0;
+
     a {
       img {
         width: 40%;

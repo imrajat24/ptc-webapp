@@ -11,6 +11,7 @@
   top: 0;
   left: 0;
   box-shadow: 0 1px 10px rgb(0, 0, 0, 14%);
+  position: relative;
 
   &_logo {
     width: 20%;
@@ -50,4 +51,63 @@
 
 .scroll-down nav {
   transform: translate3d(0, -100%, 0);
+}
+
+// hamburger icon
+.hamburger_icn {
+  position: absolute;
+  display: none;
+  pointer-events: none;
+  right: -10rem;
+  top: 4rem;
+  transform: translateY(-50%);
+  img {
+    width: 17%;
+  }
+}
+
+@include respond(phone-med) {
+  .nav {
+    align-items: flex-start;
+    flex-direction: column;
+    &_logo {
+      width: 20%;
+      img {
+        width: 50%;
+      }
+    }
+    &_menu {
+      align-self: center;
+      width: 100%;
+
+      ul {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        li {
+          width: 100%;
+          &:not(:last-of-type) {
+            margin-bottom: 1.5rem;
+          }
+        }
+      }
+    }
+
+    &_btn {
+      display: none;
+      width: 100%;
+      text-align: center;
+      margin: 3rem 0;
+    }
+
+    &_menu.active,
+    &_btn.active {
+      display: inline;
+    }
+  }
+
+  .hamburger_icn {
+    display: inline-block;
+    cursor: pointer;
+  }
 }

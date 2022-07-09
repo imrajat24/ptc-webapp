@@ -16,7 +16,9 @@ const Navigation = ({ isClicked, setIsClicked }) => {
 
     lastScroll = currentScroll;
   });
-
+  const handleClick = () => {
+    console.log("clicked");
+  };
   return (
     <nav className="nav">
       <div className="nav_logo">
@@ -96,6 +98,13 @@ const Navigation = ({ isClicked, setIsClicked }) => {
         <Link to="/contact" className="btn btn-pri">
           Contact Us
         </Link>
+      </div>
+      {/* hamburger menu */}
+      <div className="hamburger_icn" onClick={handleClick}>
+        <img
+          src="https://res.cloudinary.com/dlghjr9qx/image/upload/v1657217801/PTC/layer1_1_dwmusg.png"
+          alt="hamburgerMenu"
+        />
       </div>
     </nav>
   );

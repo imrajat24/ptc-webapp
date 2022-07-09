@@ -39,11 +39,21 @@
           width: 50%;
         }
       }
+      @include respond(tab-pot) {
+        font-size: 2rem;
+        .btn-card {
+          padding: 2rem 0;
+        }
+      }
     }
   }
   &-img {
     padding: 6rem 0;
     justify-content: center;
+    @include respond(tab-pot) {
+      margin-top: 0 !important;
+      justify-content: right;
+    }
     background-color: $color-card-bg;
     a {
       width: 30%;

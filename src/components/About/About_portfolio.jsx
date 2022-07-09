@@ -1,6 +1,6 @@
 const About_portfolio = () => {
   return (
-    <section className="about-portfolio row">
+    <div className="about-portfolio row">
       <div className="about-portfolio_content">
         <h2 className="heading-section">Portfolio Overview</h2>
         <p>
@@ -232,7 +232,7 @@ const About_portfolio = () => {
           </defs>
         </svg>
       </div>
-    </section>
+    </div>
   );
 };
 

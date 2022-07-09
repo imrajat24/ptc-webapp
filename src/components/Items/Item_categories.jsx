@@ -11,13 +11,13 @@ const Item_categories = ({ products }) => {
       <div className="item_categories-content">
         {products.map((item) => {
           return (
-            <div className="item-card">
+            <div className="item-card" key={item.id}>
               <div className="item-card--img">
                 <img src={item.img} alt={item.name} />
               </div>
               <div className="item-card--title">
                 <h3>{item.name}</h3>
-                <button className="btn btn-card btn-pri ">View all</button>
+                <button className="btn btn-card btn-pri ">Buy Now</button>
               </div>
             </div>
           );

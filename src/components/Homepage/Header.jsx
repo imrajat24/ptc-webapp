@@ -19,7 +19,7 @@ const Header = () => {
   };
   return (
     <div className="header">
-      <div className="header_content row">
+      <div className="header_content row ">
         <div className="header_content-heading">
           <h1>One-Stop Solution for all the Hardware & Steel requirements</h1>
           <h3>
@@ -47,15 +47,16 @@ const Header = () => {
               animate="final"
             />
           </Link>
+
+          <div className="whatsApp-btn">
+            <a
+              href="https://api.whatsapp.com/send?phone=7014538659"
+              target="_blank"
+            >
+              <img src={whatsAppImg} alt="whatsApp-btn" />
+            </a>
+          </div>
         </div>
-      </div>
-      <div className="whatsApp-btn">
-        <a
-          href="https://api.whatsapp.com/send?phone=7014538659"
-          target="_blank"
-        >
-          <img src={whatsAppImg} alt="whatsApp-btn" />
-        </a>
       </div>
     </div>
   );

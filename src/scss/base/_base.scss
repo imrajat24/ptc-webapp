@@ -44,8 +44,11 @@ html {
     max-width: 100rem;
   }
 
+  @include respond(tab-pot) {
+    padding: 0 2rem;
+  }
   @include respond(phone-med) {
-    //width < 1200px ?
+    //width < 768px ?
     max-width: 70rem;
   }
 
@@ -65,6 +68,9 @@ body {
 
 section {
   padding: 5rem 0;
+  @include respond(tab-pot) {
+    padding: 5rem 2rem !important;
+  }
 }
 
 Link {
