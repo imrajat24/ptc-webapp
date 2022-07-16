@@ -1,6 +1,6 @@
 import Nav from "../Homepage/Navigation";
 import { useParams } from "react-router-dom";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { hardwareItems, steelItems } from "../../items";
 import { Link } from "react-router-dom";
 import Glider from "react-glider";
@@ -18,27 +18,30 @@ const Item_content = ({ isClicked, setIsClicked }) => {
   // console.log(item);
 
   // function to add the automatic sliding animation to the glider
+  useEffect(() => {
+    function sliderAuto(slider, miliseconds) {
+      const slidesCount = 3;
+      let slideTimeout = null;
+      let nextIndex = 1;
+      function slide() {
+        slideTimeout = setTimeout(function () {
+          if (nextIndex >= slidesCount) {
+            nextIndex = 0;
+          }
+          slider?.scrollItem(nextIndex++);
+        }, miliseconds);
+      }
+      if (slider) {
+        slider.ele.addEventListener("glider-animated", function () {
+          window.clearInterval(slideTimeout);
+          slide();
+        });
+      }
 
-  function sliderAuto(slider, miliseconds) {
-    const slidesCount = 3;
-    let slideTimeout = null;
-    let nextIndex = 1;
-    function slide() {
-      slideTimeout = setTimeout(function () {
-        if (nextIndex >= slidesCount) {
-          nextIndex = 0;
-        }
-        slider?.scrollItem(nextIndex++);
-      }, miliseconds);
-    }
-    slider?.ele.addEventListener("glider-animated", function () {
-      window.clearInterval(slideTimeout);
       slide();
-    });
-
-    slide();
-  }
-  sliderAuto(gliderRef.current, 1000);
+    }
+    sliderAuto(gliderRef.current, 1000);
+  }, [gliderRef]);
 
   return (
     <>
@@ -64,11 +67,12 @@ const Item_content = ({ isClicked, setIsClicked }) => {
         <div className="about-hero_story">
           <div className="about-hero_story--img">
             <Glider
+              ref={gliderRef}
               draggable
               hasDots
               slidesToShow={1}
               slidesToScroll={1}
-              ref={gliderRef}
+              id="glider-main"
             >
               <img src={item[0].img} alt="team-image" />
               <img src={item[0].img} alt="team-image" />
@@ -76,7 +80,7 @@ const Item_content = ({ isClicked, setIsClicked }) => {
             </Glider>
 
             <h2>Other Hardware Products</h2>
-            <ul>
+            <ul key={item[0].id}>
               {hitems.map((product) => {
                 return (
                   <Link to={`/item_content/${product.id}`}>

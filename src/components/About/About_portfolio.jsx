@@ -98,9 +98,9 @@ const About_portfolio = () => {
               width="167"
               height="176"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -133,9 +133,9 @@ const About_portfolio = () => {
               width="123"
               height="135"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -168,9 +168,9 @@ const About_portfolio = () => {
               width="139"
               height="119"
               filterUnits="userSpaceOnUse"
-              color-interpolation-filters="sRGB"
+              colorInterpolationFilters="sRGB"
             >
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -204,8 +204,8 @@ const About_portfolio = () => {
               y2="393"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#3FA5D9" />
-              <stop offset="1" stop-color="#1ACACA" />
+              <stop stopColor="#3FA5D9" />
+              <stop offset="1" stopColor="#1ACACA" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_1312_2236"
@@ -215,8 +215,8 @@ const About_portfolio = () => {
               y2="440"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#3FA5D9" />
-              <stop offset="1" stop-color="#1ACACA" />
+              <stop stopColor="#3FA5D9" />
+              <stop offset="1" stopColor="#1ACACA" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_1312_2236"
@@ -226,8 +226,8 @@ const About_portfolio = () => {
               y2="511"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#3FA5D9" />
-              <stop offset="1" stop-color="#1ACACA" />
+              <stop stopColor="#3FA5D9" />
+              <stop offset="1" stopColor="#1ACACA" />
             </linearGradient>
           </defs>
         </svg>
