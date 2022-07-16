@@ -17,7 +17,10 @@ const Navigation = ({ isClicked, setIsClicked }) => {
     lastScroll = currentScroll;
   });
   const handleClick = () => {
-    console.log("clicked");
+    const menu = document.getElementById("nav_menu");
+    const btn = document.getElementById("nav_btn");
+    menu.classList.toggle("active");
+    btn.classList.toggle("active");
   };
   return (
     <nav className="nav">
@@ -26,7 +29,7 @@ const Navigation = ({ isClicked, setIsClicked }) => {
           <img src={logo} alt="logo" />
         </Link>
       </div>
-      <div className="nav_menu">
+      <div id="nav_menu" className="nav_menu">
         <ul>
           <li>
             <Link
@@ -94,7 +97,7 @@ const Navigation = ({ isClicked, setIsClicked }) => {
           </li>
         </ul>
       </div>
-      <div className="nav_btn">
+      <div id="nav_btn" className="nav_btn">
         <Link to="/contact" className="btn btn-pri">
           Contact Us
         </Link>

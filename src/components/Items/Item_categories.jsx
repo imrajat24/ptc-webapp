@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Item_categories = ({ products }) => {
   return (
     <section className="item_categories">
@@ -17,7 +18,9 @@ const Item_categories = ({ products }) => {
               </div>
               <div className="item-card--title">
                 <h3>{item.name}</h3>
-                <button className="btn btn-card btn-pri ">Buy Now</button>
+                <Link to={`/item_content/${item.id}`}>
+                  <button className="btn btn-card btn-pri">Buy Now</button>
+                </Link>
               </div>
             </div>
           );

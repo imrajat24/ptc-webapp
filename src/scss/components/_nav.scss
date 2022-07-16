@@ -11,7 +11,6 @@
   top: 0;
   left: 0;
   box-shadow: 0 1px 10px rgb(0, 0, 0, 14%);
-  position: relative;
 
   &_logo {
     width: 20%;
@@ -25,6 +24,7 @@
       display: flex;
       justify-content: space-between;
       list-style: none;
+
       li {
         .active {
           color: $color-primary !important;
@@ -58,11 +58,12 @@
   position: absolute;
   display: none;
   pointer-events: none;
-  right: -10rem;
+  right: 5rem;
   top: 4rem;
+  cursor: pointer;
   transform: translateY(-50%);
   img {
-    width: 17%;
+    width: 100%;
   }
 }
 
@@ -84,6 +85,7 @@
         display: none;
         flex-direction: column;
         text-align: center;
+
         li {
           width: 100%;
           &:not(:last-of-type) {
@@ -103,11 +105,29 @@
     &_menu.active,
     &_btn.active {
       display: inline;
+      ul {
+        display: inline;
+      }
     }
   }
 
   .hamburger_icn {
     display: inline-block;
-    cursor: pointer;
+    pointer-events: all;
+    width: 5%;
+  }
+}
+
+@include respond(phone) {
+  .nav {
+    &_logo {
+      width: 35%;
+      img {
+        width: 40%;
+      }
+    }
+  }
+  .hamburger_icn {
+    top: 4rem;
   }
 }

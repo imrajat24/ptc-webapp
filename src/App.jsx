@@ -3,6 +3,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Hardware from "./pages/Hardware";
 import Steel from "./pages/Steel";
+import Item_content from "./components/Items/Item_content";
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 function App() {
@@ -47,6 +48,12 @@ function App() {
           exact
           element={
             <Contact isClicked={isClicked} setIsClicked={setIsClicked} />
+          }
+        />
+        <Route
+          path="/item_content/:id"
+          element={
+            <Item_content isClicked={isClicked} setIsClicked={setIsClicked} />
           }
         />
       </Routes>

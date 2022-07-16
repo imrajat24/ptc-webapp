@@ -7,10 +7,10 @@
     align-items: center;
     color: white;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     width: 100%;
-    transform: translateX(-50%) translateY(-45%);
+    transform: translateX(-50%) translateY(-50%);
 
     &-heading {
       h1 {
@@ -35,13 +35,21 @@
           width: 90%;
         }
       }
+      .whatsApp-btn {
+        position: absolute;
+        bottom: -70%;
+        right: 0;
+
+        a {
+          img {
+            width: 40%;
+          }
+        }
+      }
     }
-    // !main media query to turn layout into potrait mode
+    // !main media query to turn layout into potrait mode (992px tab-pot)
     @include respond(tab-pot) {
       flex-direction: column;
-      top: 55%;
-      left: 50%;
-      transforms: translate(-50%, -55%);
       &-heading {
         text-align: center;
         h3 {
@@ -66,19 +74,60 @@
         }
       }
       .whatsApp-btn {
-        display: none;
-        pointer-events: none;
+        bottom: -45%;
+        right: 41.5%;
+        a {
+          img {
+            width: 30%;
+          }
+        }
       }
     }
-  }
-  .whatsApp-btn {
-    position: absolute;
-    bottom: -90%;
-    right: 0;
 
-    a {
-      img {
-        width: 40%;
+    // !media queries for 768px (phone-med)
+    @include respond(phone-med) {
+      top: 40%;
+      transforms: translateY(-40%);
+      .whatsApp-btn {
+        bottom: -80%;
+        right: 38%;
+        a {
+          img {
+            width: 30%;
+          }
+        }
+      }
+    }
+
+    // !media query for 600px (phone)
+    @include respond(phone) {
+      &-heading {
+        h3 {
+          width: 100%;
+        }
+      }
+      &-images {
+        a {
+          img {
+            width: 70%;
+          }
+        }
+      }
+      .whatsApp-btn {
+        bottom: -80%;
+        right: 35%;
+        a {
+          img {
+            width: 25%;
+          }
+        }
+      }
+    }
+
+    // !media query for 375px (small-phone)
+    @include respond(phone) {
+      .whatsApp-btn {
+        right: 31%;
       }
     }
   }

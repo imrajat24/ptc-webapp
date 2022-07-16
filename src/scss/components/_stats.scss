@@ -12,6 +12,9 @@
       padding: 3rem 0;
       font-weight: 400;
       color: white;
+      @include respond(phone-med) {
+        margin-right: 1rem;
+      }
     }
     .stats-2,
     .stats-4,
@@ -21,6 +24,9 @@
       background-color: white;
       opacity: 0.4;
       vertical-align: middle;
+      @include respond(phone-med) {
+        margin-right: 1rem;
+      }
     }
   }
 }
