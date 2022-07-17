@@ -60,7 +60,14 @@
   width: 90%;
   max-height: 35vh;
 }
+.slider-img {
+  width: 50% !important;
+}
+
 #dots-glider-main {
+  .glider-dots {
+    margin-top: 1rem;
+  }
   .glider-dot {
     height: 0.9rem;
     width: 0.9rem;
