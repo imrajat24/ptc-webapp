@@ -55,10 +55,10 @@
 }
 #glider-main {
   width: 90%;
-  .slider-img {
-    width: 50%;
-  }
   padding-right: 3rem;
+}
+.slider-img {
+  width: 50% !important;
 }
 
 #dots-glider-main {
