@@ -262,6 +262,8 @@ const steelItems = () => {
       name: "shape and sections",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181970/PTC/steel/Shapes_and_sections_zjrex8.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072065/PTC/hardware/images_1_jdnj4c.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072066/PTC/hardware/Shapes_and_Section_vqkchl.webp",
       ],
       category: "steel",
     },
@@ -270,6 +272,8 @@ const steelItems = () => {
       name: "round & square pipes",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656182107/PTC/steel/Round_and_square_pipes_rn1vmq.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072164/PTC/hardware/download_18_ylqg0z.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072165/PTC/hardware/download_19_fih1cx.webp",
       ],
       category: "steel",
     },
@@ -278,6 +282,8 @@ const steelItems = () => {
       name: "ms bar",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656182146/PTC/steel/Ms_bars_myrlpw.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072405/PTC/hardware/download_22_g5aqax.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072405/PTC/hardware/images_2_n6puro.webp",
       ],
       category: "steel",
     },
@@ -286,6 +292,8 @@ const steelItems = () => {
       name: "coil & plate (MS & GI)",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656182218/PTC/steel/Coil_and_plate_bhkmfm.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072285/PTC/hardware/download_20_awlmrw.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072288/PTC/hardware/download_21_ekeue0.webp",
       ],
       category: "steel",
     },
@@ -294,6 +302,8 @@ const steelItems = () => {
       name: "flat (MS & SS)",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656182263/PTC/steel/AnyConv.com__Flats_MS_GI_ddrf8o.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072480/PTC/hardware/download_23_rnfalr.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072481/PTC/hardware/images_3_qbtidy.webp",
       ],
       category: "steel",
     },
