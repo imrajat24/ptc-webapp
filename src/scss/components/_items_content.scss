@@ -51,6 +51,7 @@
     }
   }
 }
+.glider,
 .glider-contain {
   margin: 0 !important;
 }
@@ -58,12 +59,7 @@
 #glider-main {
   width: 90%;
   max-height: 35vh;
-  padding-right: 3rem;
 }
-// .slider-img {
-//   width: 50% !important;
-// }
-
 #dots-glider-main {
   .glider-dot {
     height: 0.9rem;
