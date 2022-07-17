@@ -82,9 +82,21 @@ const Item_content = ({ isClicked, setIsClicked }) => {
               slidesToScroll={1}
               id="glider-main"
             >
-              <img src={item[0].img[0]} alt="team-image" />
-              <img src={item[0].img[1]} alt="team-image" />
-              <img src={item[0].img[2]} alt="team-image" />
+              <img
+                src={item[0].img[0]}
+                alt="team-image"
+                className="slider-img"
+              />
+              <img
+                src={item[0].img[1]}
+                alt="team-image"
+                className="slider-img"
+              />
+              <img
+                src={item[0].img[2]}
+                alt="team-image"
+                className="slider-img"
+              />
             </Glider>
 
             <h2 className="list-heading">{`Other ${item[0].category} Products`}</h2>
