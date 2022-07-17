@@ -52,12 +52,13 @@
   }
 }
 .glider-contain {
-  text-align: left;
+  margin: 0 !important;
 }
+
 #glider-main {
   width: 90%;
   max-height: 35vh;
-  padding-right: 3rem;
+  // padding-right: 3rem;
 }
 .slider-img {
   width: 50% !important;
