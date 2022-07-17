@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import scrollToTop from "../../methods";
 const Item_categories = ({ products }) => {
   return (
     <section className="item_categories">
@@ -18,9 +19,15 @@ const Item_categories = ({ products }) => {
               </div>
               <div className="item-card--title">
                 <h3>{item.name}</h3>
-                <Link to={`/item_content/${item.id}`}>
-                  <button className="btn btn-card btn-pri">View More</button>
-                </Link>
+                {item.category === "hardware" ? (
+                  <Link to={`/item_content/${item.id}`} onClick={scrollToTop}>
+                    <button className="btn btn-card btn-pri">View More</button>
+                  </Link>
+                ) : (
+                  <Link to="/contact" onClick={scrollToTop}>
+                    <button className="btn btn-card btn-pri">Buy Now</button>
+                  </Link>
+                )}
               </div>
             </div>
           );

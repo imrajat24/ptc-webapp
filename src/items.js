@@ -261,9 +261,9 @@ const steelItems = () => {
       id: 51,
       name: "shape and sections",
       img: [
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181970/PTC/steel/Shapes_and_sections_zjrex8.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072065/PTC/hardware/images_1_jdnj4c.webp",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072066/PTC/hardware/Shapes_and_Section_vqkchl.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072065/PTC/hardware/images_1_jdnj4c.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181970/PTC/steel/Shapes_and_sections_zjrex8.webp",
       ],
       category: "steel",
     },
@@ -271,9 +271,9 @@ const steelItems = () => {
       id: 52,
       name: "round & square pipes",
       img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072165/PTC/hardware/download_19_fih1cx.webp",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656182107/PTC/steel/Round_and_square_pipes_rn1vmq.webp",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072164/PTC/hardware/download_18_ylqg0z.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072165/PTC/hardware/download_19_fih1cx.webp",
       ],
       category: "steel",
     },
@@ -301,9 +301,9 @@ const steelItems = () => {
       id: 55,
       name: "flat (MS & SS)",
       img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072481/PTC/hardware/images_3_qbtidy.webp",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656182263/PTC/steel/AnyConv.com__Flats_MS_GI_ddrf8o.webp",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072480/PTC/hardware/download_23_rnfalr.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072481/PTC/hardware/images_3_qbtidy.webp",
       ],
       category: "steel",
     },

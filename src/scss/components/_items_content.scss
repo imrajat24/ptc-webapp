@@ -10,10 +10,8 @@
       }
     }
 
-    .item_content-btn {
-      button {
-        margin-right: 2rem;
-      }
+    #btn-1 {
+      margin-right: 2rem;
     }
   }
 }
@@ -52,6 +50,9 @@
       }
     }
   }
+}
+.glider-contain {
+  text-align: left;
 }
 #glider-main {
   width: 90%;

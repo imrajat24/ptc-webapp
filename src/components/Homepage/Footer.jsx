@@ -1,15 +1,7 @@
 import logo from "../../images/logo_footer.png";
-import phone from "../../images/phone.png";
-import location from "../../images/location.png";
 import { Link } from "react-router-dom";
+import scrollToTop from "../../methods";
 const Footer = ({ isClicked, setIsClicked }) => {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-
   return (
     <div className="footer_contain ">
       <div className="footer_contain_logo">

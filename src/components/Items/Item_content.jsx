@@ -5,6 +5,8 @@ import { hardwareItems, steelItems } from "../../items";
 import { Link } from "react-router-dom";
 import Glider from "react-glider";
 import "glider-js/glider.min.css";
+import scrollToTop from "../../methods";
+import Footer from "../Homepage/Footer";
 const Item_content = ({ isClicked, setIsClicked }) => {
   const { id } = useParams();
   const hitems = hardwareItems();
@@ -59,7 +61,9 @@ const Item_content = ({ isClicked, setIsClicked }) => {
           </div>
           <div className="item_content-btn">
             <Link to="/contact">
-              <button className="btn btn-pri-head btn-pri">Buy Now</button>
+              <button className="btn btn-pri-head btn-pri" id="btn-1">
+                Buy Now
+              </button>
             </Link>
             {item[0].pdf ? (
               <a href={item[0].pdf} target="_blank">
@@ -103,7 +107,10 @@ const Item_content = ({ isClicked, setIsClicked }) => {
             <ul key={item[0].id}>
               {products.map((product) => {
                 return (
-                  <Link to={`/item_content/${product.id}`}>
+                  <Link
+                    to={`/item_content/${product.id}`}
+                    onClick={scrollToTop}
+                  >
                     <li
                       className={product.id == item[0].id ? "selected" : null}
                     >
@@ -125,6 +132,7 @@ const Item_content = ({ isClicked, setIsClicked }) => {
           </div>
         </div>
       </div>
+      <Footer isClicked={isClicked} setIsClicked={setIsClicked} />
     </>
   );
 };
