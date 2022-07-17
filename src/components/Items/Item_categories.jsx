@@ -14,12 +14,12 @@ const Item_categories = ({ products }) => {
           return (
             <div className="item-card" key={item.id}>
               <div className="item-card--img">
-                <img src={item.img} alt={item.name} />
+                <img src={item.img[0]} alt={item.name} />
               </div>
               <div className="item-card--title">
                 <h3>{item.name}</h3>
                 <Link to={`/item_content/${item.id}`}>
-                  <button className="btn btn-card btn-pri">Buy Now</button>
+                  <button className="btn btn-card btn-pri">View More</button>
                 </Link>
               </div>
             </div>

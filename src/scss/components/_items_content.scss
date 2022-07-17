@@ -12,9 +12,43 @@
 
     .item_content-btn {
       button {
-        &:not(:last-of-type) {
-          margin-right: 2rem;
+        margin-right: 2rem;
+      }
+    }
+  }
+}
+
+.list-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
+.about-hero_story--img {
+  ul {
+    list-style: none;
+    a {
+      &:link,
+      &:active,
+      :visited {
+        text-decoration: none;
+      }
+      li {
+        text-transform: capitalize;
+        color: $color-text;
+        font-size: 1.4rem;
+        padding: 1rem 0 1rem 1rem;
+        width: 90%;
+        background-color: $color-primary;
+        border-bottom: 0.2rem solid white;
+        color: white;
+        transition: all 0.1s ease-in-out;
+        &:hover {
+          background-color: $color-gradient-1;
         }
+      }
+      .selected {
+        background-color: $color-gradient-1;
       }
     }
   }
