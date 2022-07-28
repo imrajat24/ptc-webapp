@@ -14,8 +14,13 @@
 
   &_logo {
     width: 20%;
-    img {
-      width: 40%;
+    a {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      img {
+        width: 40%;
+      }
     }
   }
   &_menu {
@@ -114,7 +119,8 @@
   .hamburger_icn {
     display: inline-block;
     pointer-events: all;
-    width: 5%;
+    top: 3.5rem;
+    width: 4%;
   }
 }
 
@@ -128,6 +134,11 @@
     }
   }
   .hamburger_icn {
-    top: 4rem;
+    width: 5%;
+  }
+}
+@include respond(small-phone) {
+  .hamburger_icn {
+    top: 3rem;
   }
 }

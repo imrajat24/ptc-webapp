@@ -20,4 +20,4 @@ const Sec_usp = () => {
   );
 };
 
-export default Sec_usp;
+export default Sec_usp; 

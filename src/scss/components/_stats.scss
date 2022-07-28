@@ -15,6 +15,14 @@
       @include respond(phone-med) {
         margin-right: 1rem;
       }
+      @include respond(phone) {
+        margin: 0 1rem;
+        font-size: 1.6rem;
+      }
+      @include respond(small-phone) {
+        margin: 0 0.5rem;
+        font-size: 1.6rem;
+      }
     }
     .stats-2,
     .stats-4,

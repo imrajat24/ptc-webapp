@@ -63,4 +63,45 @@
       }
     }
   }
+  @include respond(phone-med) {
+    position: relative;
+    background-color: $color-primary;
+    flex-direction: column;
+    &-content {
+      width: 100%;
+      .upper-triangle,
+      .lower-triangle {
+        display: none;
+        pointer-events: none;
+      }
+      .text {
+        width: 70%;
+        transform: translate(-50%, 50%);
+        p {
+          font-size: 2.2rem;
+        }
+        .btn-card {
+          display: none;
+          pointer-events: none;
+        }
+      }
+    }
+    &-img {
+      justify-content: center;
+      padding: 18rem 0 6rem 0;
+      background-color: transparent;
+    }
+  }
+  @include respond(phone) {
+    &-content {
+      .text {
+        width: 90%;
+      }
+    }
+  }
+  @include respond(small-phone) {
+    &-img {
+      padding: 23rem 0 6rem 0;
+    }
+  }
 }

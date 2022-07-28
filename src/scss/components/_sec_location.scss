@@ -32,4 +32,18 @@
       padding: 5rem 0 5rem 6rem;
     }
   }
+  @include respond(phone-med) {
+    flex-direction: column;
+    &-text,
+    &-map {
+      width: 100%;
+    }
+    &-text {
+      text-align: center;
+      padding: 3rem;
+      p {
+        width: 100%;
+      }
+    }
+  }
 }

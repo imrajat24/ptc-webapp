@@ -37,7 +37,7 @@
       }
       .whatsApp-btn {
         position: absolute;
-        bottom: -70%;
+        bottom: -65%;
         right: 0;
 
         a {
@@ -86,7 +86,7 @@
 
     // !media queries for 768px (phone-med)
     @include respond(phone-med) {
-      top: 40%;
+      top: 50%;
       transforms: translateY(-40%);
       .whatsApp-btn {
         bottom: -80%;

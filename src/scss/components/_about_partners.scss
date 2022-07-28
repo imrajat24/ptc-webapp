@@ -4,5 +4,16 @@
   }
   &_slider {
     margin: 5rem 0;
+    .slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 50%;
+        &:nth-of-type(3) {
+          // width: 100%;
+        }
+      }
+    }
   }
 }

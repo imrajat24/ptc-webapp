@@ -24,12 +24,16 @@
           font-size: 1.8rem;
           font-weight: 500;
           color: #062d40;
-          margin-bottom: 2rem;
+          margin-bottom: 0.3rem;
         }
         p {
           font-size: 1.6rem;
           color: #092c3d;
-          margin-bottom: 4rem;
+          margin-bottom: 2rem;
+          padding-left: 2rem;
+          ul {
+            padding-left: 2rem;
+          }
         }
       }
     }

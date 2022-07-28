@@ -14,43 +14,48 @@ const Contact_faq = () => {
         </div>
         <div className="contact_faq--faq-questions">
           <div className="question">
-            <h3>
-              1 .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
-              elit risus malesuada?
-            </h3>
+            <h3>1. What is the procedure to order the required items?</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat elit
-              risus malesuada purus a est, ac. Enim purus amet
+              <ul>
+                <li>
+                  First, you need to select between <b>Hardware</b> and
+                  <b> Steel</b>.
+                </li>
+                <li>List down the items you want to buy.</li>
+                <li>
+                  Click on the <b>Buy Now</b> button and fill the details
+                  mentioned in the form.
+                </li>
+                <li>
+                  You will receive a quote of your requirements on your
+                  registered mail id within 48 hours.
+                </li>
+              </ul>
             </p>
           </div>
           <div className="question">
             <h3>
-              2 .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
-              elit risus malesuada?
+              2. How many days can I expect to hear from you after submitting my
+              requirements?
             </h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat elit
-              risus malesuada purus a est, ac. Enim purus amet
+              You only have to wait for a maximum of 48 hours. If you still face
+              any issues then mail us at: punittrading2004@gmail.com
             </p>
           </div>
           <div className="question">
-            <h3>
-              3 .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
-              elit risus malesuada?
-            </h3>
+            <h3>3. Do you provide any catalog of the list of items?</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat elit
-              risus malesuada purus a est, ac. Enim purus amet
+              Yes, you can check the catalog of the items with the market price
+              mentioned in the view more section of the categories under
+              hardware and steel.
             </p>
           </div>
           <div className="question">
-            <h3>
-              4 .Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
-              elit risus malesuada?
-            </h3>
+            <h3>4. Do you provide door-to-door delivery?</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat elit
-              risus malesuada purus a est, ac. Enim purus amet
+              Yes, we provide door-to-door delivery but only for orders above
+              20kg or Rs 5000.
             </p>
           </div>
         </div>

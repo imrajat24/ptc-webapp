@@ -1,6 +1,6 @@
 const Sec_location = () => {
   return (
-    <div className="sec_location ">
+    <div className="sec_location">
       <div className="sec_location-text">
         <h3>Location</h3>
         <p>

@@ -5,6 +5,9 @@
       color: $color-primary;
     }
   }
+  @include respond(phone-med) {
+    margin-bottom: 3rem;
+  }
 }
 
 .sec_process-content {
@@ -49,6 +52,23 @@
       text-align: end;
       img {
         width: 90%;
+      }
+    }
+    @include respond(phone-med) {
+      flex-direction: column;
+      &:not(:last-of-type) {
+        margin-bottom: 2rem;
+      }
+      &_content {
+        width: 100%;
+        padding: 0;
+      }
+      &_img {
+        margin: 1rem 0 0 -1rem;
+
+        img {
+          border-radius: 1rem;
+        }
       }
     }
   }

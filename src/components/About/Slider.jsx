@@ -1,9 +1,6 @@
 import Glider from "react-glider";
 import "glider-js/glider.min.css";
-import logo_1 from "../../images/logo-1.png";
-import logo_2 from "../../images/logo-2.png";
-import logo_3 from "../../images/logo-3.png";
-import logo_4 from "../../images/logo-4.png";
+
 const Slider = () => {
   return (
     <Glider
@@ -18,7 +15,7 @@ const Slider = () => {
           // screens greater than >= 1201px
           breakpoint: 1201,
           settings: {
-            slidesToShow: "4",
+            slidesToShow: "5",
           },
         },
         {
@@ -26,7 +23,7 @@ const Slider = () => {
           breakpoint: 769,
           settings: {
             // Set to `auto` and provide item width to adjust to viewport
-            slidesToShow: "3",
+            slidesToShow: "4",
           },
         },
         {
@@ -34,7 +31,7 @@ const Slider = () => {
           breakpoint: 601,
           settings: {
             // Set to `auto` and provide item width to adjust to viewport
-            slidesToShow: "2",
+            slidesToShow: "3",
           },
         },
 
@@ -43,22 +40,82 @@ const Slider = () => {
           breakpoint: 300,
           settings: {
             // Set to `auto` and provide item width to adjust to viewport
-            slidesToShow: "1",
+            slidesToShow: "2",
           },
         },
       ]}
     >
       <div className="partner-card slide">
-        <img src={logo_1} alt="logo-1" />
+        <img
+          src="https://res.cloudinary.com/dlghjr9qx/image/upload/v1658589072/PTC/PTC%20Website%20Work/Fosroc_nm0rog.png"
+          alt="logo-1"
+        />
       </div>
       <div className="partner-card slide">
-        <img src={logo_2} alt="logo-2" />
+        <img
+          src="https://res.cloudinary.com/dlghjr9qx/image/upload/v1658589073/PTC/PTC%20Website%20Work/logo_ocm92h.png"
+          alt="logo-2"
+        />
       </div>
       <div className="partner-card slide">
-        <img src={logo_3} alt="logo-3" />
+        <img
+          src="https://res.cloudinary.com/dlghjr9qx/image/upload/v1658589072/PTC/PTC%20Website%20Work/1_opkyib.png"
+          alt="logo-3"
+        />
       </div>
       <div className="partner-card slide">
-        <img src={logo_4} alt="logo-4" />
+        <img
+          src="https://res.cloudinary.com/dlghjr9qx/image/upload/v1658589072/PTC/PTC%20Website%20Work/apppg_logo_1x_acjpzy.png"
+          alt="logo-4"
+        />
+      </div>
+      <div className="partner-card slide">
+        <img
+          src="https://res.cloudinary.com/dlghjr9qx/image/upload/v1658589073/PTC/PTC%20Website%20Work/great_yuva_o5ces7.png"
+          alt="logo-5"
+        />
+      </div>
+      <div className="partner-card slide">
+        <img
+          src="https://res.cloudinary.com/dlghjr9qx/image/upload/v1658589073/PTC/PTC%20Website%20Work/jcb-34409_kx8tsq.png"
+          alt="logo-6"
+        />
+      </div>
+      <div className="partner-card slide">
+        <img
+          src="https://res.cloudinary.com/dlghjr9qx/image/upload/v1658589072/PTC/PTC%20Website%20Work/2_sbfhy3.png"
+          alt="logo-7"
+        />
+      </div>
+      <div className="partner-card slide">
+        <img
+          src="https://res.cloudinary.com/dlghjr9qx/image/upload/v1658589073/PTC/PTC%20Website%20Work/Tata-Agrico-Logo-PNG_jpedca.png"
+          alt="logo-8"
+        />
+      </div>
+      <div className="partner-card slide">
+        <img
+          src="https://res.cloudinary.com/dlghjr9qx/image/upload/v1658589073/PTC/PTC%20Website%20Work/techno_hdrocyl_xeuhf8.gif"
+          alt="logo-9"
+        />
+      </div>
+      <div className="partner-card slide">
+        <img
+          src="https://res.cloudinary.com/dlghjr9qx/image/upload/v1658589072/PTC/PTC%20Website%20Work/Ferreterro-Logo_xfjzmv.png"
+          alt="logo-10"
+        />
+      </div>
+      <div className="partner-card slide">
+        <img
+          src="https://res.cloudinary.com/dlghjr9qx/image/upload/v1658589073/PTC/PTC%20Website%20Work/nvr_cplait.png"
+          alt="logo-11"
+        />
+      </div>
+      <div className="partner-card slide">
+        <img
+          src="https://res.cloudinary.com/dlghjr9qx/image/upload/v1658589074/PTC/PTC%20Website%20Work/Updated-Metro-Logo_hivt65.png"
+          alt="logo-12"
+        />
       </div>
     </Glider>
   );
