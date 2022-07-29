@@ -36,7 +36,7 @@ const Contact_header = () => {
             <h2>Leave Query</h2>
           </div>
           <div className="contact_header-cards_card--content">
-            <p>We'd Love To Hear From You. Here's How You Can Reach Us.</p>
+            <p>We'd Love To Hear From You. Leave a query below.</p>
           </div>
           <div className="contact_header-cards_card--btn">
             <button className="btn btn-pri">leave a query</button>

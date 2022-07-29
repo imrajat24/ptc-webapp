@@ -9,7 +9,7 @@
       margin-bottom: 2rem;
     }
     P {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       line-height: 1.6;
     }
   }
@@ -18,6 +18,44 @@
     width: 50%;
     svg {
       width: 80%;
+    }
+  }
+  @include respond(phone-med) {
+    flex-direction: column;
+    &_content {
+      text-align: center;
+      width: 80%;
+    }
+    &_img {
+      text-align: center;
+      width: 100%;
+      svg {
+        width: 70%;
+      }
+    }
+  }
+  @include respond(phone) {
+    &_img {
+      svg {
+        margin-top: -5%;
+        width: 75%;
+      }
+    }
+  }
+  @media only screen and (max-width: 31.25em) {
+    &_img {
+      svg {
+        margin-top: -21%;
+        width: 80%;
+      }
+    }
+  }
+  @include respond(small-phone) {
+    &_img {
+      svg {
+        margin-top: -35%;
+        width: 85%;
+      }
     }
   }
 }

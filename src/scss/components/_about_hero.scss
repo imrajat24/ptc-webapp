@@ -45,5 +45,21 @@
         margin-top: 2rem;
       }
     }
+    @include respond(phone-med) {
+      flex-direction: column;
+      &--img,
+      &--content {
+        text-align: center;
+        width: 100%;
+      }
+      &--img {
+        img {
+          width: 50%;
+        }
+      }
+      &--content {
+        margin-top: 2rem;
+      }
+    }
   }
 }

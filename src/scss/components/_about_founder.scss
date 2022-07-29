@@ -34,4 +34,23 @@
       }
     }
   }
+  @include respond(phone-med) {
+    flex-direction: column;
+    &_img,
+    &_content {
+      width: 100%;
+    }
+    &_img {
+      text-align: center;
+      img {
+        width: 50%;
+      }
+    }
+    &_content {
+      margin-top: 2rem;
+      p {
+        text-align: center;
+      }
+    }
+  }
 }

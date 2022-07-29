@@ -1,5 +1,5 @@
 .item_categories {
-  padding: 5rem 0;
+  padding: 4rem 0;
 
   &-header {
     text-align: center;
@@ -10,7 +10,7 @@
     }
   }
   &-content {
-    padding: 6rem 0;
+    padding: 4rem 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -41,6 +41,33 @@
           font-weight: 400;
           color: white;
           margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+  @include respond(phone-med) {
+    &-content {
+      .item-card {
+        padding-bottom: 1rem;
+        &--img {
+          width: 25rem;
+          img {
+            width: 25rem;
+            height: 20rem;
+          }
+        }
+
+        &--title {
+          align-items: center;
+
+          h3 {
+            font-size: 1.8rem;
+          }
+          a {
+            button {
+              font-size: 1.6rem;
+            }
+          }
         }
       }
     }

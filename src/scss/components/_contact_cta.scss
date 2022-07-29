@@ -9,4 +9,9 @@
       margin-top: 1rem;
     }
   }
+  @include respond(phone-med) {
+    &-heading {
+      width: 100%;
+    }
+  }
 }

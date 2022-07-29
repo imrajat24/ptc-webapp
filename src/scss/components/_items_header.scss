@@ -53,4 +53,29 @@
       }
     }
   }
+  @include respond(tab-pot) {
+    padding: 12rem 0 7rem 0;
+
+    &-content {
+      justify-content: center;
+      &--heading {
+        text-align: center;
+        width: 100%;
+        h2 {
+          font-size: 4.8rem;
+        }
+
+        h4 {
+          font-size: 1.8rem;
+          line-height: 1.6;
+          border-right: none;
+          padding-right: 0;
+        }
+      }
+      &--process {
+        display: none;
+        pointer-events: none;
+      }
+    }
+  }
 }

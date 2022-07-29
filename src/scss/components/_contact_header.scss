@@ -3,10 +3,7 @@
   position: relative;
 
   &-content {
-    position: absolute;
     top: 40%;
-    left: 50%;
-    transform: translate(-50%, -40%);
     text-align: center;
     display: inline-block;
     &_heading {
@@ -24,7 +21,7 @@
 
   &-cards {
     position: absolute;
-    top: 70%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%);
     display: flex;
@@ -65,6 +62,111 @@
       &--btn {
         button {
           font-family: inherit;
+        }
+      }
+    }
+  }
+  // ! main media queries
+  // ! media query 1
+  @include respond(tab-land) {
+    &-cards {
+      &_card {
+        width: 50rem;
+      }
+    }
+  }
+  // ! media query 2
+  @include respond(tab-pot) {
+    &-cards {
+      &_card {
+        width: 40rem;
+        &--content {
+          p {
+            width: 90%;
+          }
+        }
+      }
+    }
+  }
+  // ! media query 3
+  @include respond(phone-med) {
+    &-content {
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -20%);
+      &_heading {
+        h1 {
+          font-size: 4.2rem;
+          margin-bottom: 0.5rem !important;
+        }
+        h3 {
+          font-size: 2rem;
+          font-weight: 400;
+        }
+      }
+    }
+    &-cards {
+      top: 40%;
+      &_card {
+        width: 35rem;
+        padding: 4rem 2rem;
+        &:first-of-type {
+          margin-right: 4rem;
+        }
+        &--icon {
+          img {
+            width: 20%;
+          }
+        }
+        &--title {
+          h2 {
+            font-size: 2.8rem;
+          }
+        }
+        &--content {
+          p {
+            font-size: 1.8rem;
+            width: 100%;
+          }
+        }
+        &--btn {
+          button {
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+  }
+  // ! media query 4
+  @include respond(phone) {
+    &-content {
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -20%);
+      &_heading {
+        h1 {
+          padding: 0 4rem;
+        }
+        h3 {
+          padding: 0 6rem;
+        }
+      }
+    }
+    &-cards {
+      flex-direction: column;
+      top: 45%;
+      &_card {
+        background-color: white;
+        // padding: 4rem 80rem;
+        width: 45rem;
+        &:first-of-type {
+          margin-right: 0;
+          margin-bottom: 2rem;
+        }
+        &--icon {
+          img {
+            width: 15%;
+          }
         }
       }
     }
