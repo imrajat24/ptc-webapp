@@ -104,7 +104,7 @@ const Item_content = ({ isClicked, setIsClicked }) => {
             </Glider>
 
             <h2 className="list-heading">{`Other ${item[0].category} Products`}</h2>
-            <ul key={item[0].id}>
+            <ul key={item[0].id} className="product-list">
               {products.map((product) => {
                 return (
                   <Link
@@ -121,7 +121,7 @@ const Item_content = ({ isClicked, setIsClicked }) => {
               })}
             </ul>
           </div>
-          <div className="about-hero_story--content">
+          <div className="about-hero_story--content item-content--content">
             <h2 className="heading-section">{item[0].seller}</h2>
             <p>{item[0].desp}</p>
             <p>

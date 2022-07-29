@@ -16,7 +16,7 @@ const Contact_faq = () => {
           <div className="question">
             <h3>1. What is the procedure to order the required items?</h3>
             <p>
-              <ul>
+              <ul className="faq-list">
                 <li>
                   First, you need to select between <b>Hardware</b> and
                   <b> Steel</b>.

@@ -8,7 +8,7 @@ const Footer = ({ isClicked, setIsClicked }) => {
         <img src={logo} alt="logo" /> <h2>PTC Private Limited</h2>
       </div>
       <div className="footer_contain_bottom-nav">
-        <ul>
+        <ul className="footer-list">
           <li>
             <Link
               to="/"
