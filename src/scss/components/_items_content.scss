@@ -83,6 +83,7 @@
   .list-heading {
     position: absolute;
     bottom: -45%;
+    width: 100%;
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 2rem;
@@ -106,14 +107,14 @@
 
 @include respond(phone) {
   .list-heading {
-    bottom: -32%;
+    bottom: -40%;
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 2rem;
   }
   .product-list {
     position: absolute;
-    bottom: -112%;
+    bottom: -120%;
     width: 100% !important;
     a {
       li {
@@ -123,29 +124,41 @@
     }
   }
   .item-content--content {
-    margin-bottom: 130%;
+    margin-bottom: 140%;
   }
 }
 
 @media only screen and (max-width: 32.5em) {
   .list-heading {
-    bottom: -34%;
+    bottom: -45%;
   }
   .product-list {
-    bottom: -114%;
+    bottom: -125%;
   }
   .item-content--content {
-    margin-bottom: 150%;
+    margin-bottom: 160%;
   }
 }
 @media only screen and (max-width: 28.125em) {
   .list-heading {
-    bottom: -12%;
+    bottom: -55%;
   }
   .product-list {
-    bottom: -92%;
+    bottom: -135%;
   }
   .item-content--content {
     margin-bottom: 200%;
+  }
+}
+
+@include respond(small-phone) {
+  .list-heading {
+    bottom: -60%;
+  }
+  .product-list {
+    bottom: -141%;
+  }
+  .item-content--content {
+    margin-bottom: 250%;
   }
 }
