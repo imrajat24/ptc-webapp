@@ -78,14 +78,14 @@
   }
   .list-heading {
     position: absolute;
-    bottom: -2%;
+    bottom: -45%;
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 2rem;
   }
   .product-list {
     position: absolute;
-    bottom: -90%;
+    bottom: -133%;
     width: 100% !important;
     a {
       li {
@@ -96,7 +96,7 @@
     }
   }
   .item-content--content {
-    margin-bottom: 120%;
+    margin-bottom: 125%;
   }
 }
 
@@ -125,13 +125,13 @@
 
 @media only screen and (max-width: 32.5em) {
   .list-heading {
-    bottom: 0;
+    bottom: -34%;
   }
   .product-list {
-    bottom: -80%;
+    bottom: -114%;
   }
   .item-content--content {
-    margin-bottom: 150%;
+    margin-bottom: 130%;
   }
 }
 @media only screen and (max-width: 28.125em) {
