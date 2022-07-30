@@ -79,7 +79,7 @@
   @include respond(tab-pot) {
     &-cards {
       &_card {
-        width: 40rem;
+        width: 35rem;
         &--content {
           p {
             width: 90%;
@@ -108,7 +108,7 @@
     &-cards {
       top: 40%;
       &_card {
-        width: 35rem;
+        width: 30rem;
         padding: 4rem 2rem;
         &:first-of-type {
           margin-right: 4rem;
@@ -139,10 +139,11 @@
   }
   // ! media query 4
   @include respond(phone) {
+    height: 105vh !important;
     &-content {
-      top: 20%;
+      top: 15%;
       left: 50%;
-      transform: translate(-50%, -20%);
+      transform: translate(-50%, -15%);
       &_heading {
         h1 {
           padding: 0 4rem;
@@ -154,10 +155,9 @@
     }
     &-cards {
       flex-direction: column;
-      top: 45%;
+      top: 30%;
       &_card {
         background-color: white;
-        // padding: 4rem 80rem;
         width: 45rem;
         &:first-of-type {
           margin-right: 0;

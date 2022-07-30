@@ -122,6 +122,10 @@ const Item_content = ({ isClicked, setIsClicked }) => {
             </ul>
           </div>
           <div className="about-hero_story--content item-content--content">
+            <p className="breadcrumb">
+              <Link to={"/hardware"}>{item[0].category}</Link> &gt;&gt;
+              <Link to={`/item_content/${item[0].id}`}> {item[0].name}</Link>
+            </p>
             <h2 className="heading-section">{item[0].seller}</h2>
             <p>{item[0].desp}</p>
             <p>
