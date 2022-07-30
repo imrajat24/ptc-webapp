@@ -73,6 +73,10 @@
 }
 
 @include respond(phone-med) {
+  .glider,
+  .glider-contain {
+    margin: 0 auto !important;
+  }
   item_content {
     position: relative;
   }
@@ -102,14 +106,14 @@
 
 @include respond(phone) {
   .list-heading {
-    bottom: 7%;
+    bottom: -32%;
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 2rem;
   }
   .product-list {
     position: absolute;
-    bottom: -73%;
+    bottom: -112%;
     width: 100% !important;
     a {
       li {
@@ -131,7 +135,7 @@
     bottom: -114%;
   }
   .item-content--content {
-    margin-bottom: 130%;
+    margin-bottom: 150%;
   }
 }
 @media only screen and (max-width: 28.125em) {
