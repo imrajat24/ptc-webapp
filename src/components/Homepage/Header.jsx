@@ -50,7 +50,7 @@ const Header = () => {
 
           <div className="whatsApp-btn">
             <a
-              href="https://api.whatsapp.com/send?phone=7014538659"
+              href="https://api.whatsapp.com/send?phone=7229876091"
               target="_blank"
             >
               <img src={whatsAppImg} alt="whatsApp-btn" />
