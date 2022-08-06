@@ -5,7 +5,7 @@ const About_portfolio = () => {
         <h2 className="heading-section">Portfolio Overview</h2>
         <p>
           Punit Trading Company has been in operation for 25+ years. It was
-          started with a 40-50 product range and now we're dealing with 20,000+
+          started with a 40-50 product range and now we're dealing with 10,000+
           products, the highest among the entire hardware solutions industry.
           And, the range of products helped us in delivering 1 lacs plus orders
           to a variety of industries with a 100% satisfaction rate.

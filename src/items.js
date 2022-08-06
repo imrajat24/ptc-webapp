@@ -27,7 +27,7 @@ const hardwareItems = () => {
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658058145/PTC/hardware/locks-3_1_e54bxm.webp",
       ],
       seller: "Harrison Locks",
-      pdf: "https://drive.google.com/drive/folders/12xveCukjMKrzYvbyR7OAI_MTTo10rCT1?usp=sharing",
+      pdf: "https://drive.google.com/file/d/1276Y9Us_vzNgy5br2vBt2m3zMEGNnK5V/view?usp=sharing",
       desp: "Over 6 decades, Harrison which has been brand leader in locks & hardware solution. Be fealess & desire for more from HARRISON with a bold thinking and rigorous craftsmanship combine to bring innovative, sturdy products. Harrison a brand, is one of the leading company known for providing best security & hardwaresolutions. We're celebrating 65+ years of setting the standards of excellences and pushing the limits of product design. whether we are bringing to you. If there's anyone we owe our success over 6 decades milestone to,it's you. Millions of customers in every home, accross the country who have shown their trust on every HARRISON product, that we have introduced. Here's looking forward to an even longer journey ahead with you!!",
       link: "https://www.harrisonlocks.com/products/1/1/2",
       category: "hardware",
@@ -99,7 +99,7 @@ const hardwareItems = () => {
       seller: "JCB",
       pdf: "https://drive.google.com/file/d/18P1HQUgJpDLOwfrQTZwca3RZaP_zx8Yn/view?usp=sharing",
       desp: "JCB India Limited is a leading manufacturer of earthmoving and construction equipment in India. The company started as a joint venture in 1979 and is now a fully owned subsidiary of J.C Bamford Excavators, United Kingdom. With five state-of-the-art factories in India, JCB manufactures a wide range of world-class equipment in India for the domestic market as well as for exports to more than 110 countries. JCB introduced the iconic Backhoe Loader in India over four decades ago. It has since expanded its range to over 60 products in nine categories. The Ballabgarh factory near New Delhi, which is the world’s largest factory for Backhoe Loaders, is also the Headquarters for JCB India. This facility, apart from Backhoe Loaders, also manufactures Skid Steer Loaders, Telehandlers, Diesel Generators and Diesel Engines. ",
-      link: "https://www.jcb.com/en-in",
+      link: "http://powertools.jcb-tools.in/",
       category: "hardware",
     },
     {
@@ -184,7 +184,7 @@ const hardwareItems = () => {
     },
     {
       id: 14,
-      name: "ms & gi pipes",
+      name: "MS & GI pipes",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180582/PTC/hardware/MS_GI_pipes_wzwvu2.webp",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658063642/PTC/hardware/download_10_pj350v.webp",
@@ -279,7 +279,7 @@ const steelItems = () => {
     },
     {
       id: 53,
-      name: "ms bar",
+      name: "MS bar",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656182146/PTC/steel/Ms_bars_myrlpw.webp",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072405/PTC/hardware/download_22_g5aqax.webp",
