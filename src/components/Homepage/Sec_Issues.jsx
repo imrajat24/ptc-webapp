@@ -1,6 +1,6 @@
-import issueImg1 from "../../images/issue-1.png";
-import issueImg2 from "../../images/issue-2.png";
-import issueImg3 from "../../images/issue-3.png";
+import issueImg1 from "../../images/issue-1.webp";
+import issueImg2 from "../../images/issue-2.webp";
+import issueImg3 from "../../images/issue-3.webp";
 
 const Sec_Issues = () => {
   return (

@@ -1,4 +1,4 @@
-import hero_img from "../../images/about_hero.png";
+import hero_img from "../../images/about_hero.webp";
 const About_Hero = () => {
   return (
     <div className="about-hero row">

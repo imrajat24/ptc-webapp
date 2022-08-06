@@ -1,9 +1,9 @@
 import one from "../../images/one.png";
 import two from "../../images/two.png";
 import three from "../../images/three.png";
-import process_1 from "../../images/process_1.png";
-import process_2 from "../../images/process_2.png";
-import process_3 from "../../images/process_3.png";
+import process_1 from "../../images/process_1.webp";
+import process_2 from "../../images/process_2.webp";
+import process_3 from "../../images/process_3.webp";
 const Process = () => {
   return (
     <section className="sec_process row">

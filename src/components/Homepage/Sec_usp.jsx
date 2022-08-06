@@ -1,8 +1,8 @@
-import usp_hero from "../../images/usp_hero.png";
-import usp_1 from "../../images/usp_1.png";
-import usp_2 from "../../images/usp_2.png";
-import usp_3 from "../../images/usp_3.png";
-import usp_4 from "../../images/usp_4.png";
+import usp_hero from "../../images/usp_hero.webp";
+import usp_1 from "../../images/usp_1.webp";
+import usp_2 from "../../images/usp_2.webp";
+import usp_3 from "../../images/usp_3.webp";
+import usp_4 from "../../images/usp_4.webp";
 
 const Sec_usp = () => {
   return (
@@ -20,4 +20,4 @@ const Sec_usp = () => {
   );
 };
 
-export default Sec_usp; 
+export default Sec_usp;

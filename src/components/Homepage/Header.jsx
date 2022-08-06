@@ -1,5 +1,5 @@
-import imgHardware from "../../images/hardware-card.png";
-import imgSteel from "../../images/steel-card.png";
+import imgHardware from "../../images/hardware-card.webp";
+import imgSteel from "../../images/steel-card.webp";
 import whatsAppImg from "../../images/whatsapp.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
