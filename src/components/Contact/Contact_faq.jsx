@@ -1,5 +1,44 @@
-import DragDrop from "./DragDrop";
+import DragDrop from './DragDrop';
+import { useState } from 'react';
 const Contact_faq = () => {
+  // ! states to hold the form data
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [number, setNumber] = useState();
+  const [query, setQuery] = useState();
+  const [file, setFile] = useState(null);
+
+  // ! function to handle the form submission
+  const handleForm = async (e) => {
+    e.preventDefault();
+    const url =
+      'https://hooks.slack.com/services/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';
+
+    const data = {
+      text: `Name: ${name}\n Email: ${email}\n Number: ${number}\n Query: ${query}\n Image: ${file}`,
+    };
+    let res = await fetch(url, {
+      method: 'POST',
+      body: JSON.stringify(data),
+      withCredentials: false,
+      transformRequest: [
+        (data, headers) => {
+          delete headers.post['Content-Type'];
+          return data;
+        },
+      ],
+    });
+
+    if (res.status === 200) {
+      alert('Meassage Sent');
+      setName('');
+      setEmail('');
+      setNumber('');
+      setQuery('');
+      setFile(null);
+    } else alert('error sending message');
+  };
+
   return (
     <section className="contact_faq row">
       <div className="contact_faq--faq">
@@ -74,14 +113,37 @@ const Contact_faq = () => {
             data-netlify="true"
             enctype="multipart/form-data"
           >
-            <input type="text" placeholder="full name" name="Full Name" />
-            <input type="email" placeholder="email" name="Email" />
-            <input type="number" placeholder="phone number" name="Number" />
-            <textarea placeholder="your query" name="Query" />
+            <input
+              type="text"
+              placeholder="full name"
+              name="Full Name"
+              onChange={(e) => setName(e.target.value)}
+            />
+            <input
+              type="email"
+              placeholder="email"
+              name="Email"
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <input
+              type="number"
+              placeholder="phone number"
+              name="Number"
+              onChange={(e) => setNumber(e.target.value)}
+            />
+            <textarea
+              placeholder="your query"
+              name="Query"
+              onChange={(e) => setQuery(e.target.value)}
+            />
             <label>add product's image</label>
-            {/* <DragDrop /> */}
-            <input name="file" type="file" />
-            <button type="submit" className="btn btn-pri">
+            <DragDrop setFile={setFile} />
+            {/* <input name="file" type="file" /> */}
+            <button
+              type="submit"
+              className="btn btn-pri"
+              onClick={(e) => handleForm(e)}
+            >
               Submit query
             </button>
           </form>
