@@ -1,5 +1,5 @@
-import DragDrop from './DragDrop';
-import { useState } from 'react';
+import DragDrop from "./DragDrop";
+import { useState } from "react";
 const Contact_faq = () => {
   // ! states to hold the form data
   const [name, setName] = useState();
@@ -12,35 +12,35 @@ const Contact_faq = () => {
   const handleForm = async (e) => {
     e.preventDefault();
     const url =
-      'https://hooks.slack.com/services/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';
+      "https://hooks.slack.com/services/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";
 
     const data = {
       text: `Name: ${name}\n Email: ${email}\n Number: ${number}\n Query: ${query}\n Image: ${file}`,
     };
     let res = await fetch(url, {
-      method: 'POST',
+      method: "POST",
       body: JSON.stringify(data),
       withCredentials: false,
       transformRequest: [
         (data, headers) => {
-          delete headers.post['Content-Type'];
+          delete headers.post["Content-Type"];
           return data;
         },
       ],
     });
 
     if (res.status === 200) {
-      alert('Meassage Sent');
-      setName('');
-      setEmail('');
-      setNumber('');
-      setQuery('');
+      alert("Meassage Sent");
+      setName("");
+      setEmail("");
+      setNumber("");
+      setQuery("");
       setFile(null);
-    } else alert('error sending message');
+    } else alert("error sending message");
   };
 
   return (
-    <section className="contact_faq row">
+    <section className="contact_faq row" id="faq">
       <div className="contact_faq--faq">
         <div className="contact_faq--faq-sec-heading">
           <p>

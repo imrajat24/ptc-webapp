@@ -21,10 +21,12 @@ const Contact_header = () => {
             <h2>call now</h2>
           </div>
           <div className="contact_header-cards_card--content">
-            <p> Let's connect on a call between 10 am-5 pm</p>
+            <p> Let's connect on a call between 10 am-7 pm</p>
           </div>
           <div className="contact_header-cards_card--btn">
-            <button className="btn btn-pri">call now</button>
+            <a href="tel:7229876091">
+              <button className="btn btn-pri">call now</button>
+            </a>
           </div>
         </div>
 
@@ -39,7 +41,9 @@ const Contact_header = () => {
             <p>We'd Love To Hear From You. Leave a query below.</p>
           </div>
           <div className="contact_header-cards_card--btn">
-            <button className="btn btn-pri">leave a query</button>
+            <a href="#faq">
+              <button className="btn btn-pri">leave a query</button>
+            </a>
           </div>
         </div>
       </div>

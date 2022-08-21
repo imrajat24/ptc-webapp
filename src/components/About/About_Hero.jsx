@@ -26,11 +26,11 @@ const About_Hero = () => {
           </p>
           <p>
             In the meantime, we partnered with some prestigious brands like
-            Asian paints, Berger paints, TATA Agrico, UNIK, JCB, Hikoki, and
-            many more to give variety to our customers. Now, a family-owned and
-            operated business has become the region’s best distributor
-            especially in hardware products that support industrial houses and
-            manufacturers for all their requirements.
+            Asian paints, Berger paints, TATA Agrico, UNIK, JCB, and many more
+            to give variety to our customers. Now, a family-owned and operated
+            business has become the region’s best distributor especially in
+            hardware products that support industrial houses and manufacturers
+            for all their requirements.
           </p>
         </div>
       </div>

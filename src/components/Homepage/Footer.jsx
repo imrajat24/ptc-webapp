@@ -5,7 +5,7 @@ const Footer = ({ isClicked, setIsClicked }) => {
   return (
     <div className="footer_contain ">
       <div className="footer_contain_logo">
-        <img src={logo} alt="logo" /> <h2>PTC Private Limited</h2>
+        <img src={logo} alt="logo" /> <h2>Punit Trading Company</h2>
       </div>
       <div className="footer_contain_bottom-nav">
         <ul className="footer-list">
