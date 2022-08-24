@@ -61,9 +61,12 @@
 }
 .slider-img {
   max-width: 100% !important;
+  border-radius: 1rem;
 }
 
 #dots-glider-main {
+  display: none;
+  pointer-events: none;
   margin-top: 1rem;
   // justify-content: flex-start;
   .glider-dot {

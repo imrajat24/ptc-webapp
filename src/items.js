@@ -3,42 +3,13 @@ import { nanoid } from "nanoid";
 const hardwareItems = () => {
   return [
     // !pdfs and the other inpage content will also be included in this  (another array can be made in the items array!)
-
     {
       id: 1,
-      name: "fasteners",
-      img: [
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656172823/PTC/hardware/fasteners-img_1_c9xl5o.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658058077/PTC/hardware/fasteners-2_mwquau.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658057914/PTC/hardware/fasteners-3_1_l044lp.webp",
-      ],
-      seller: "Caparo India Pvt Ltd",
-      pdf: "https://drive.google.com/file/d/1EHQfy6eIQd_bCFkwqMcYB4eETyGdrO4H/view?usp=sharing",
-      desp: "Established in 2005 at Chopanki (Bhiwadi), Rajasthan, Caparo's fasteners division is among the market leaders in fasteners technology in India. As a specialist in in-house manufacturing of a wide range of high-tensile standard and special fasteners, the division has established itself as a reliable supplier of fasteners to almost all the Automobile OEMs in the country and their manufacturing locations abroad. Known for our solutions-driven know-how and zero-defects policy, we produce fasteners for a variety of international and Indian standards from cold heading quality of Medium Carbon, High Carbon & Alloy Steel. As a process-driven and IATF 16949, ISO 45001 & ISO 14001 certified facility , our primary focus is to provide the best solutions to our customers, with new product development being our hallmark. As a result, we have developed a wide range of products catering to the needs of the automobile as well as general engineering applications.",
-      link: "https://www.caparo.co.in/fasteners/",
-      category: "hardware",
-    },
-    {
-      id: 2,
-      name: "locks",
-      img: [
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180107/PTC/hardware/locks_v5rkxt.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658058140/PTC/hardware/locks-2_1_mro8yv.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658058145/PTC/hardware/locks-3_1_e54bxm.webp",
-      ],
-      seller: "Harrison Locks",
-      pdf: "https://drive.google.com/file/d/1276Y9Us_vzNgy5br2vBt2m3zMEGNnK5V/view?usp=sharing",
-      desp: "Over 6 decades, Harrison which has been brand leader in locks & hardware solution. Be fealess & desire for more from HARRISON with a bold thinking and rigorous craftsmanship combine to bring innovative, sturdy products. Harrison a brand, is one of the leading company known for providing best security & hardwaresolutions. We're celebrating 65+ years of setting the standards of excellences and pushing the limits of product design. whether we are bringing to you. If there's anyone we owe our success over 6 decades milestone to,it's you. Millions of customers in every home, accross the country who have shown their trust on every HARRISON product, that we have introduced. Here's looking forward to an even longer journey ahead with you!!",
-      link: "https://www.harrisonlocks.com/products/1/1/2",
-      category: "hardware",
-    },
-    {
-      id: 3,
       name: "paints",
       img: [
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180300/PTC/hardware/paint_bppczw.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658059473/PTC/hardware/asian_paints-2_zwejsm.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658059503/PTC/hardware/Asian-Paints-3_ac7gwx.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1661368469/PTC/hardware/Asian-paints-1_szd9bd.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1661368459/PTC/hardware/asian-paints-4_iszyhg.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1661368458/PTC/hardware/asian-paints-3_uh9amv.webp",
       ],
       seller: "Asian Paints",
       pdf: "https://drive.google.com/file/d/1Z-y7C662i2rTZCoDdiW4rzEik1IZFg_S/view?usp=sharing",
@@ -47,49 +18,7 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 4,
-      name: "sanitary",
-      img: [
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180502/PTC/hardware/sanitary_fzrlvy.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658059921/PTC/hardware/product-500x500_ixu9sc.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658059952/PTC/hardware/ajay-upvc-pipe-fittings-3_growyc.webp",
-      ],
-      seller: "Prince",
-      pdf: "https://drive.google.com/file/d/1WwnnTLzTxc_Y0lg7RO_68ynURjaza2Ne/view?usp=sharing",
-      desp: "One of the largest SKUs in the industry of over 7200 products. Prince is committed towards constant innovations in plumbing, irrigation and sewerage technologies to meet the nation’s constantly increasing water demands. Prince Pipes and Fittings Ltd. constantly strives to pave the way for a future that provides clean water for everyone and everywhere; from the smallest villages to the largest cities. Prince Pipes and Fittings Ltd. incorporates a well-structured framework, combined with state-of-the-art machinery that creates a zero defect manufacturing process and leak-proof piping systems. We operate computerized injection moulding machines with a clamping force ranging from 50 to 660 tons to manufacture fittings.",
-      link: "https://www.princepipes.com/",
-      category: "hardware",
-    },
-    {
-      id: 5,
-      name: "v-Belts",
-      img: [
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180688/PTC/hardware/v-belts_pwmdqu.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658060182/PTC/hardware/download_alln0i.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658060185/PTC/hardware/download_1_raafpd.webp",
-      ],
-      seller: "JK Fenner",
-      pdf: "https://drive.google.com/file/d/1GEJXU-GfuysZ1HfSw-hm33CrsbOoUwrL/view?usp=sharing",
-      desp: "In 1987 JK Fenner became a strategic investor in Fenner Cockill Limited and eventually acquired company in the year 2004. Right from the time of its Inception the name has been synonymous with Mechanical Power Transmission and Sealing Solutions. The company was acquired by JK Organisation in 1987, and currently, as a member of the conglomerate J.KFenner operates 5 state-of-the-art manufacturing units and 3 world-class Research & Development facilities. With quality, commitment and relentless service Fenner has established itself as the market leader for Power Transmission Belts in India catering to diverse industrial applications. J.K Fenner is also a name to reckon with in the design and manufacturing of Oil Seals, Hoses, Gear Boxes, Geared Motors, Pulleys, Power Transmission Belts, FEAD Systems, Belt Tensioners, and Moulded Rubber Products, EV Products for Automotive & Industrial Applications. The Organisation addresses the needs of major sectors like Steel, Cement, Coal, Sugar, Power, Paper, Textiles, Food processing, Agriculture and many more.",
-      link: "https://jkfenner.com/industrial-power-transmission-belts/",
-      category: "hardware",
-    },
-    {
-      id: 6,
-      name: "air-fittings",
-      img: [
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180758/PTC/hardware/air_fittings_nsnlau.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658060630/PTC/hardware/download_2_opuawa.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658060634/PTC/hardware/download_3_qisxr4.webp",
-      ],
-      seller: "Techno",
-      pdf: "https://drive.google.com/file/d/1QLYyIc5abo1XjKYVs4rw2j2mctuhW51f/view?usp=sharing",
-      desp: "We would like to introduce ourselves as a dealer of Pneumatics Products for last 25 years and have luanched imported Pneumatics Products since last three years. We have a full stock of Directional Control Valves, Diaphragm Valves, Pilot and Direct Acting Solenoid Valves, Manual, Mechanical and Automatic Valves, Auto Drain Valve, High Pressure Filter & Regulator, Air Treatment Units, Push-inTube Fittings, Silencers, Air guns, Brass One Touch Couplers, Hose Reel, Spring Balancers etc. to meet and satisfy every customer needs. All the products, we import are manufactured by the Companies who possess ISO 9001-2000 International Quality System Attestation. Techno Pneumatics is in coordination with these companies, who use their technological strength and rich professional experiences and launch latest products.",
-      link: "http://www.techno-pneumatics.com/default.aspx",
-      category: "hardware",
-    },
-    {
-      id: 7,
+      id: 2,
       name: "power tools",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180828/PTC/hardware/power_tools_1_qdmmzf.webp",
@@ -103,7 +32,106 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
+      id: 3,
+      name: "waterproofing items",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1661370131/PTC/hardware/waterproofing_items_cg6wba.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658063356/PTC/hardware/fosroc-waterproofing-chemicals-250x250_tnotdv.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658063346/PTC/hardware/fosroc-waterproofing-chemicals-500x500-500x500_pl03mq.webp",
+      ],
+      seller: "Fosroc",
+      pdf: "https://drive.google.com/file/d/1zIWcslvV3pxN8LlX6g41dsqhV4rJXxJ0/view?usp=sharing",
+      desp: "Fosroc is a world leader in manufacturing and supplying high performance chemicals for the construction industry. We deliver complete constructive solutions for all project needs. Fosroc India is a 100% privately owned subsidiary of Fosroc International Limited UK, a division of JMH Group, with over 80 years of experience worldwide. Fosroc India has over four decades of pioneering experience in providing Constructive Solutions and serving customers in the construction industry across the country. We have state-of-the-art manufacturing facilities in Bangalore (Karnataka), Ankleshwar (Gujarat), Kolkata (West Bengal) and Keshwana (Rajasthan), with a wide network of sales and marketing offices in all metropolitan areas and leading cities in India, supported by mix design and specification experts, regional technical service specialists and regional concrete laboratories. Fosroc’s corporate and registered offices are based in Bangalore.",
+      link: "https://fosroc.com/english/about-fosroc-india",
+      category: "hardware",
+    },
+    {
+      id: 4,
+      name: "Hight Tensile Fasteners",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1661368906/PTC/hardware/High-Tensile-Fasteners-3_juazni.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1661368880/PTC/hardware/High-Tensile-Fasteners_ptp7vk.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1661368932/PTC/hardware/High-Tensile-Fasteners-2_byudyc.webp",
+      ],
+      seller: "Caparo India Pvt Ltd",
+      pdf: "https://drive.google.com/drive/folders/1RpvEXT56lneQ5myoaR0Z7H5zhGHIO_Zn",
+      desp: "Established in 2005 at Chopanki (Bhiwadi), Rajasthan, Caparo's fasteners division is among the market leaders in fasteners technology in India. As a specialist in in-house manufacturing of a wide range of high-tensile standard and special fasteners, the division has established itself as a reliable supplier of fasteners to almost all the Automobile OEMs in the country and their manufacturing locations abroad. Known for our solutions-driven know-how and zero-defects policy, we produce fasteners for a variety of international and Indian standards from cold heading quality of Medium Carbon, High Carbon & Alloy Steel. As a process-driven and IATF 16949, ISO 45001 & ISO 14001 certified facility , our primary focus is to provide the best solutions to our customers, with new product development being our hallmark. As a result, we have developed a wide range of products catering to the needs of the automobile as well as general engineering applications.",
+      link: "https://www.caparo.co.in/fasteners/",
+      category: "hardware",
+    },
+    {
+      id: 5,
+      name: "Pin & Chemical Fasteners",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1661369769/PTC/hardware/pin-chemical-fasteners-2_oc7goi.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1661369766/PTC/hardware/pin-chemical-fasteners_jsosfp.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1661368932/PTC/hardware/High-Tensile-Fasteners-2_byudyc.webp",
+      ],
+      seller: "Caparo India Pvt Ltd",
+      pdf: "https://drive.google.com/drive/folders/1_4IrGebyQOUjJtngvD4z4ane2t2OxVQ5?usp=sharing",
+      desp: "Established in 2005 at Chopanki (Bhiwadi), Rajasthan, Caparo's fasteners division is among the market leaders in fasteners technology in India. As a specialist in in-house manufacturing of a wide range of high-tensile standard and special fasteners, the division has established itself as a reliable supplier of fasteners to almost all the Automobile OEMs in the country and their manufacturing locations abroad. Known for our solutions-driven know-how and zero-defects policy, we produce fasteners for a variety of international and Indian standards from cold heading quality of Medium Carbon, High Carbon & Alloy Steel. As a process-driven and IATF 16949, ISO 45001 & ISO 14001 certified facility , our primary focus is to provide the best solutions to our customers, with new product development being our hallmark. As a result, we have developed a wide range of products catering to the needs of the automobile as well as general engineering applications.",
+      link: "https://www.caparo.co.in/fasteners/",
+      category: "hardware",
+    },
+    {
+      id: 6,
+      name: "locks",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180107/PTC/hardware/locks_v5rkxt.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658058140/PTC/hardware/locks-2_1_mro8yv.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658058145/PTC/hardware/locks-3_1_e54bxm.webp",
+      ],
+      seller: "Harrison Locks",
+      pdf: "https://drive.google.com/file/d/1276Y9Us_vzNgy5br2vBt2m3zMEGNnK5V/view?usp=sharing",
+      desp: "Over 6 decades, Harrison which has been brand leader in locks & hardware solution. Be fealess & desire for more from HARRISON with a bold thinking and rigorous craftsmanship combine to bring innovative, sturdy products. Harrison a brand, is one of the leading company known for providing best security & hardwaresolutions. We're celebrating 65+ years of setting the standards of excellences and pushing the limits of product design. whether we are bringing to you. If there's anyone we owe our success over 6 decades milestone to,it's you. Millions of customers in every home, accross the country who have shown their trust on every HARRISON product, that we have introduced. Here's looking forward to an even longer journey ahead with you!!",
+      link: "https://www.harrisonlocks.com/products/1/1/2",
+      category: "hardware",
+    },
+    {
+      id: 7,
+      name: "sanitary",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180502/PTC/hardware/sanitary_fzrlvy.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658059921/PTC/hardware/product-500x500_ixu9sc.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658059952/PTC/hardware/ajay-upvc-pipe-fittings-3_growyc.webp",
+      ],
+      seller: "Prince",
+      pdf: "https://drive.google.com/file/d/1WwnnTLzTxc_Y0lg7RO_68ynURjaza2Ne/view?usp=sharing",
+      desp: "One of the largest SKUs in the industry of over 7200 products. Prince is committed towards constant innovations in plumbing, irrigation and sewerage technologies to meet the nation’s constantly increasing water demands. Prince Pipes and Fittings Ltd. constantly strives to pave the way for a future that provides clean water for everyone and everywhere; from the smallest villages to the largest cities. Prince Pipes and Fittings Ltd. incorporates a well-structured framework, combined with state-of-the-art machinery that creates a zero defect manufacturing process and leak-proof piping systems. We operate computerized injection moulding machines with a clamping force ranging from 50 to 660 tons to manufacture fittings.",
+      link: "https://www.princepipes.com/",
+      category: "hardware",
+    },
+    {
       id: 8,
+      name: "v-Belts",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180688/PTC/hardware/v-belts_pwmdqu.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658060182/PTC/hardware/download_alln0i.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658060185/PTC/hardware/download_1_raafpd.webp",
+      ],
+      seller: "JK Fenner",
+      pdf: "https://drive.google.com/file/d/1GEJXU-GfuysZ1HfSw-hm33CrsbOoUwrL/view?usp=sharing",
+      desp: "In 1987 JK Fenner became a strategic investor in Fenner Cockill Limited and eventually acquired company in the year 2004. Right from the time of its Inception the name has been synonymous with Mechanical Power Transmission and Sealing Solutions. The company was acquired by JK Organisation in 1987, and currently, as a member of the conglomerate J.KFenner operates 5 state-of-the-art manufacturing units and 3 world-class Research & Development facilities. With quality, commitment and relentless service Fenner has established itself as the market leader for Power Transmission Belts in India catering to diverse industrial applications. J.K Fenner is also a name to reckon with in the design and manufacturing of Oil Seals, Hoses, Gear Boxes, Geared Motors, Pulleys, Power Transmission Belts, FEAD Systems, Belt Tensioners, and Moulded Rubber Products, EV Products for Automotive & Industrial Applications. The Organisation addresses the needs of major sectors like Steel, Cement, Coal, Sugar, Power, Paper, Textiles, Food processing, Agriculture and many more.",
+      link: "https://jkfenner.com/industrial-power-transmission-belts/",
+      category: "hardware",
+    },
+    {
+      id: 9,
+      name: "air-fittings",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180758/PTC/hardware/air_fittings_nsnlau.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658060630/PTC/hardware/download_2_opuawa.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658060634/PTC/hardware/download_3_qisxr4.webp",
+      ],
+      seller: "Techno",
+      pdf: "https://drive.google.com/file/d/1QLYyIc5abo1XjKYVs4rw2j2mctuhW51f/view?usp=sharing",
+      desp: "We would like to introduce ourselves as a dealer of Pneumatics Products for last 25 years and have luanched imported Pneumatics Products since last three years. We have a full stock of Directional Control Valves, Diaphragm Valves, Pilot and Direct Acting Solenoid Valves, Manual, Mechanical and Automatic Valves, Auto Drain Valve, High Pressure Filter & Regulator, Air Treatment Units, Push-inTube Fittings, Silencers, Air guns, Brass One Touch Couplers, Hose Reel, Spring Balancers etc. to meet and satisfy every customer needs. All the products, we import are manufactured by the Companies who possess ISO 9001-2000 International Quality System Attestation. Techno Pneumatics is in coordination with these companies, who use their technological strength and rich professional experiences and launch latest products.",
+      link: "http://www.techno-pneumatics.com/default.aspx",
+      category: "hardware",
+    },
+
+    {
+      id: 10,
       name: "lifting items",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180902/PTC/hardware/Lifting_items_fxctrd.webp",
@@ -117,7 +145,7 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 9,
+      id: 11,
       name: "welding items",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180996/PTC/hardware/welding_n2hno0.webp",
@@ -129,7 +157,7 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 10,
+      id: 12,
       name: "weld mesh net",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181146/PTC/hardware/net_i2b5yp.webp",
@@ -142,7 +170,7 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 11,
+      id: 13,
       name: "tarpaulin",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181225/PTC/hardware/Tarpaulin_uoabyx.webp",
@@ -155,7 +183,7 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 12,
+      id: 14,
       name: "packaging items",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181316/PTC/hardware/packge_yy3f3z.webp",
@@ -168,22 +196,9 @@ const hardwareItems = () => {
       link: "https://www.twinindia.com/",
       category: "hardware",
     },
+
     {
-      id: 13,
-      name: "waterproofing items",
-      img: [
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181404/PTC/hardware/Sheet-waterproofing-membrane_antpia.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658063356/PTC/hardware/fosroc-waterproofing-chemicals-250x250_tnotdv.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658063346/PTC/hardware/fosroc-waterproofing-chemicals-500x500-500x500_pl03mq.webp",
-      ],
-      seller: "Fosroc",
-      pdf: "https://drive.google.com/file/d/1zIWcslvV3pxN8LlX6g41dsqhV4rJXxJ0/view?usp=sharing",
-      desp: "Fosroc is a world leader in manufacturing and supplying high performance chemicals for the construction industry. We deliver complete constructive solutions for all project needs. Fosroc India is a 100% privately owned subsidiary of Fosroc International Limited UK, a division of JMH Group, with over 80 years of experience worldwide. Fosroc India has over four decades of pioneering experience in providing Constructive Solutions and serving customers in the construction industry across the country. We have state-of-the-art manufacturing facilities in Bangalore (Karnataka), Ankleshwar (Gujarat), Kolkata (West Bengal) and Keshwana (Rajasthan), with a wide network of sales and marketing offices in all metropolitan areas and leading cities in India, supported by mix design and specification experts, regional technical service specialists and regional concrete laboratories. Fosroc’s corporate and registered offices are based in Bangalore.",
-      link: "https://fosroc.com/english/about-fosroc-india",
-      category: "hardware",
-    },
-    {
-      id: 14,
+      id: 15,
       name: "MS & GI pipes",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180582/PTC/hardware/MS_GI_pipes_wzwvu2.webp",
@@ -197,7 +212,7 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 15,
+      id: 16,
       name: "insulation items",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181498/PTC/hardware/Insulation_ms0wzl.webp",
@@ -210,7 +225,7 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 16,
+      id: 17,
       name: "measuring items",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181576/PTC/hardware/Measuring-Items-1_pp0brc.webp",
@@ -224,7 +239,7 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 17,
+      id: 18,
       name: "bearings",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181734/PTC/hardware/Bearings_m9gmmx.webp",
@@ -238,7 +253,7 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 18,
+      id: 19,
       name: "tools & accessories ",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181818/PTC/hardware/Tools-nd-accessories_ujrsuw.webp",
