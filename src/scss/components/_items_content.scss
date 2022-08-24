@@ -57,8 +57,7 @@
 }
 
 #glider-main {
-  width: 35rem;
-  // max-height: 40vh;
+  // width: 35rem;
 }
 .slider-img {
   max-width: 100% !important;
@@ -66,6 +65,7 @@
 
 #dots-glider-main {
   margin-top: 1rem;
+  // justify-content: flex-start;
   .glider-dot {
     height: 0.9rem;
     width: 0.9rem;
