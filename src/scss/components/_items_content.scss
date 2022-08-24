@@ -57,7 +57,7 @@
 }
 
 #glider-main {
-  // width: 35rem;
+  width: 40rem;
 }
 .slider-img {
   max-width: 100% !important;
@@ -74,6 +74,7 @@
 
 .breadcrumb {
   margin-bottom: 2rem;
+  margin-top: 0 !important;
   a {
     color: $color-text;
     font-size: 1.6rem;
