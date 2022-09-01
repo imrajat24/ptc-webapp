@@ -22,10 +22,12 @@
       // width: 30rem;
       &--img {
         width: 20rem;
+        overflow: hidden;
+        border-radius: 0.6rem;
         img {
           border-radius: 0.6rem 0.6rem 0 0;
-          width: 20rem;
-          height: 20rem;
+          width: 21rem;
+          height: 21rem;
           object-fit: cover;
           filter: grayscale(40%);
         }

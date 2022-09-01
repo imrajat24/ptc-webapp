@@ -8,7 +8,7 @@ const hardwareItems = () => {
       name: "paints",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1661368469/PTC/hardware/Asian-paints-1_szd9bd.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1661368459/PTC/hardware/asian-paints-4_iszyhg.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1661541990/PTC/hardware/46806d9c1b54fe2844ea7dca4a44a28e_q44r7t.webp",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1661368458/PTC/hardware/asian-paints-3_uh9amv.webp",
       ],
       seller: "Asian Paints",
@@ -75,6 +75,20 @@ const hardwareItems = () => {
     },
     {
       id: 6,
+      name: "lifting items",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180902/PTC/hardware/Lifting_items_fxctrd.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658061146/PTC/hardware/fire-and-safety-products-500x500_jsvdvl.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658061152/PTC/hardware/product-jpeg-500x500_ze0gy9.webp",
+      ],
+      seller: "Ferreterro",
+      pdf: "https://drive.google.com/file/d/1J1dmHqWd_NiYxxi4m6ZXww2AATjbXM7x/view?usp=sharing",
+      desp: "Our roots are more than 135 years deep, with being Delhi’s first Foundry and then being Worlds largest manufacturer of spanners and hand tools with 7000 workforce. We started manufacturing hardware fittings with a British collaboration which we took over and expanded into manufacturing and exporting of Lifting, Lashing, Hoists, Tie down restraint, Safety and defence products. We have a diverse manufacturing portfolio. Manufacturing right from Webbing Slings to round slings, Own High Tenacity Polyester Yarn, Steel Chains, Snow Chains, Non Skid Chains, Chain Pulley blocks, Electric chain hoists, Gears, Compensation chains for elevator industry, Tyre chains, Aircraft arrester Nets, Cargo Bars, Purchase tapes, Shoulder dolly, Cam buckles, Ratchet lashing buckles and hooks, One way buckles, Drop forged buckles, Shackles, Air dunnage bags, composite straps, Fall Arrest safety harness belts and all hardware for same, Wire buckles and many more.",
+      link: "https://ferreterro.com/about-us/",
+      category: "hardware",
+    },
+    {
+      id: 6,
       name: "locks",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180107/PTC/hardware/locks_v5rkxt.webp",
@@ -130,20 +144,6 @@ const hardwareItems = () => {
       category: "hardware",
     },
 
-    {
-      id: 10,
-      name: "lifting items",
-      img: [
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180902/PTC/hardware/Lifting_items_fxctrd.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658061146/PTC/hardware/fire-and-safety-products-500x500_jsvdvl.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658061152/PTC/hardware/product-jpeg-500x500_ze0gy9.webp",
-      ],
-      seller: "Ferreterro",
-      pdf: "https://drive.google.com/file/d/1J1dmHqWd_NiYxxi4m6ZXww2AATjbXM7x/view?usp=sharing",
-      desp: "Our roots are more than 135 years deep, with being Delhi’s first Foundry and then being Worlds largest manufacturer of spanners and hand tools with 7000 workforce. We started manufacturing hardware fittings with a British collaboration which we took over and expanded into manufacturing and exporting of Lifting, Lashing, Hoists, Tie down restraint, Safety and defence products. We have a diverse manufacturing portfolio. Manufacturing right from Webbing Slings to round slings, Own High Tenacity Polyester Yarn, Steel Chains, Snow Chains, Non Skid Chains, Chain Pulley blocks, Electric chain hoists, Gears, Compensation chains for elevator industry, Tyre chains, Aircraft arrester Nets, Cargo Bars, Purchase tapes, Shoulder dolly, Cam buckles, Ratchet lashing buckles and hooks, One way buckles, Drop forged buckles, Shackles, Air dunnage bags, composite straps, Fall Arrest safety harness belts and all hardware for same, Wire buckles and many more.",
-      link: "https://ferreterro.com/about-us/",
-      category: "hardware",
-    },
     {
       id: 11,
       name: "welding items",
