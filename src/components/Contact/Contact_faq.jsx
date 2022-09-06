@@ -36,7 +36,10 @@ const Contact_faq = () => {
       setNumber("");
       setQuery("");
       setFile(null);
-    } else alert("error sending message");
+    } else {
+      alert("error sending message");
+      console.log(res);
+    }
   };
 
   return (
