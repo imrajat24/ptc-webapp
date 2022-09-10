@@ -12,7 +12,7 @@ const Contact_faq = () => {
   const handleForm = async (e) => {
     e.preventDefault();
     const url =
-      "https://hooks.slack.com/services/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";
+      "https://hooks.slack.com/services/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";
 
     const data = {
       text: `Name: ${name}\n Email: ${email}\n Number: ${number}\n Query: ${query}\n Image: ${file}`,
@@ -120,23 +120,27 @@ const Contact_faq = () => {
               type="text"
               placeholder="full name"
               name="Full Name"
+              value={name}
               onChange={(e) => setName(e.target.value)}
             />
             <input
               type="email"
               placeholder="email"
               name="Email"
+              value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
             <input
               type="number"
               placeholder="phone number"
               name="Number"
+              value={number}
               onChange={(e) => setNumber(e.target.value)}
             />
             <textarea
               placeholder="your query"
               name="Query"
+              value={query}
               onChange={(e) => setQuery(e.target.value)}
             />
             <label>add product's image</label>
