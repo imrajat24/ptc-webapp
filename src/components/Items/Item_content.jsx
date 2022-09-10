@@ -130,7 +130,9 @@ const Item_content = ({ isClicked, setIsClicked }) => {
             <p>{item[0].desp}</p>
             <p>
               <a href={item[0].link} target="_blank">
-                <button className="btn btn-footer">More Info</button>
+                {item[0].link ? (
+                  <button className="btn btn-footer">More Info</button>
+                ) : null}
               </a>
             </p>
           </div>

@@ -4,6 +4,7 @@
   justify-content: space-between;
   width: 100%;
   border-radius: 3rem;
+  margin-bottom: 6rem;
   @include respond(tab-pot) {
     width: 90%;
   }

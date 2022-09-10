@@ -27,6 +27,7 @@ const Navigation = ({ isClicked, setIsClicked }) => {
       <div className="nav_logo">
         <Link to="/">
           <img src={logo} alt="logo" />
+          <span>Punit Trading Company</span>
         </Link>
       </div>
       <div id="nav_menu" className="nav_menu">

@@ -105,8 +105,8 @@ const hardwareItems = () => {
       id: 8,
       name: "Pipe fittings",
       img: [
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662403639/PTC/hardware/UNIK_pipe_fittings_1_j3ks8x.webp",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662403639/PTC/hardware/UNIK_pipe_fittings_2_xanjwt.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662403639/PTC/hardware/UNIK_pipe_fittings_1_j3ks8x.webp",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662403639/PTC/hardware/UNIK_pipe_fittings_3_ehrnyk.jpg",
       ],
       seller: "UNIK",
@@ -180,31 +180,130 @@ const hardwareItems = () => {
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662405209/PTC/hardware/welding_rods_1_tp7xfj.jpg",
       ],
       seller: "ADOR",
+      pdf: "https://drive.google.com/file/d/151XZaXA4LHvKbhJGx-3VRd2PjF5LDQmh/view?usp=sharing",
       desp: "Established in 1951, Ador (formerly, Advani-Oerlikon) is one of the leading welding companies in India, manufacturing high-quality welding equipment, consumables, and welding automation solutions. Additionally, Ador has been in the Flares & Process Equipment Division for more than 30+ years. Ador has played a significant role during the post-independence industrialization in India and takes immense pride in its heritage.",
       link: "https://www.adorwelding.com/who-we-are/",
       category: "hardware",
     },
     {
-      id: 6,
-      name: "locks",
+      id: 14,
+      name: "Wire Ropes & Sling",
       img: [
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180107/PTC/hardware/locks_v5rkxt.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658058140/PTC/hardware/locks-2_1_mro8yv.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658058145/PTC/hardware/locks-3_1_e54bxm.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662833837/PTC/hardware/Wire_rope_and_sling_2_izegqp.jpg",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662833838/PTC/hardware/Wire_rope_and_sling_1_xrr7ob.jpg",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662833838/PTC/hardware/Wire_rope_and_sling_3_cnrqgc.jpg",
       ],
-      seller: "Harrison Locks",
-      pdf: "https://drive.google.com/file/d/1276Y9Us_vzNgy5br2vBt2m3zMEGNnK5V/view?usp=sharing",
-      desp: "Over 6 decades, Harrison which has been brand leader in locks & hardware solution. Be fealess & desire for more from HARRISON with a bold thinking and rigorous craftsmanship combine to bring innovative, sturdy products. Harrison a brand, is one of the leading company known for providing best security & hardwaresolutions. We're celebrating 65+ years of setting the standards of excellences and pushing the limits of product design. whether we are bringing to you. If there's anyone we owe our success over 6 decades milestone to,it's you. Millions of customers in every home, accross the country who have shown their trust on every HARRISON product, that we have introduced. Here's looking forward to an even longer journey ahead with you!!",
-      link: "https://www.harrisonlocks.com/products/1/1/2",
+      seller: "Mahadev",
+      pdf: "https://drive.google.com/file/d/13aT0spUccM-ue2_2t5ouj7cfQy1JqLIb/view?usp=sharing",
+      desp: "An ISO 9001:2015 and BIS/ISI certified company Mahadev Industries is one of the leading Steel Wire Rope manufacturer in India. Mahadev Industries has won recognition from lot of its users/departments/testing institution/customers. We are MSME / SSI Unit. It born in 1995 and started working at Alipur, Delhi with a covered area of 7500Sq.ft.and Then shifted to Uttar Pradesh State Industrial Development- Tronica City, Loni, Ghaziabad (UP) in the year 2002 with a covered area of 25000 Sq.ft. due to lack of space then in 2006 extended the work shed from 25000 Sq.ft. to 50000 Sq.ft. Mahadev Industries has in –house production plant with in-house testing facilities to ensure that everything is up to the mark of specified standards. This self-assurance comes from the strong infra structural and technological capabilities. It has state of art machineries and fully equipped testing labs for continuous process testing from raw material to finished goods according to National and International Standards and for this we can say rather we are proud of having breaking load capacity of 300 M.T. with crimping machine (for slings) up to 2000 M.T., and to complement it further there is an in-house test laboratory having a full range of facilities for chemical analysis and mechanical testing of wire, wire ropes and other allied articles/accessories. Highly skilled workforce reflects Mahadev’s commitments to continuously serve its customers and to produce high performance and cost effective.",
+      link: "https://www.mahadevropes.com/about.html",
       category: "hardware",
     },
     {
-      id: 7,
+      id: 15,
+      name: "Safety Items",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662834476/PTC/hardware/Safety_item_1_dw6bcn.jpg",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662834476/PTC/hardware/Safety_item_2_qodvnp.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662834476/PTC/hardware/Safety_item_3_fcfxyo.jpg",
+      ],
+      seller: "Metro",
+      pdf: "https://drive.google.com/file/d/1uxbcDPw1efYA9pkZIsvxs_xhvhE_6xj6/view?usp=sharing",
+      desp: "Incepted in the year 1998, Metro Safety India Pvt Ltd  is one of the leading manufacturers and suppliers of industrial safety helmets, belts and harnesses, welding accessories and other road safety products such as speed bumps, road barriers, reflective jackets and safety batons. These include safety boots & gloves, speed bumps, studs & safety batons, life jackets & life bouy, metal detector, industrial safety belts, safety net & ladder, road safety products, reflective jackets & tape, road barriers, safety helmets for mine industry, and helmets & side boxes. We specialize in manufacturing Fiberglass Reinforced Plastic (FRP) helmets, which are known for its high quality standard. Our team of research analysts is constantly working to develop new and enhanced range of helmets that are assured to have anti - scratch, anti glare and anti-fog visors. Thus, our industrial safety helmets are successfully meeting the needs of mine industry, roadways, and construction industry.",
+      link: "https://www.metrosafetyindia.co/about-us.html",
+      category: "hardware",
+    },
+    {
+      id: 16,
+      name: "SS Nut Bolt",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662835013/PTC/hardware/SS_nut_bolt_2_fs1cj8.jpg",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662835012/PTC/hardware/SS_nut_bolt_1_wwrent.jpg",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662835012/PTC/hardware/SS_nut_bolt_3_udlftc.jpg",
+      ],
+      seller: "Suraj",
+      pdf: "https://drive.google.com/file/d/1irBdVEFPUh-eybyNFpzl6fg46m-urrY4/view?usp=sharing",
+      desp: "Suraj Metal Corporation was established in the year 1973 with the aim of catering to the growing demands of Stainless Steel and Nickel Alloys. Suraj Metal Corporation is a leading supplier of various Stainless Steel and Nickel Alloys products including Round Bars, Forging and Fasteners. We have a team of young visionaries who endeavor for excellence in every aspect related to metals. We strongly believe in our core values and are always in the pursuit of success along the lines of ethical business practices. Keeping in mind its customer centric approach, timely delivery and quality products, the Company has grown in size and products range. Over the decades Suraj Metal Corporation has provided immense support to this industry In India and has built various congenial customer relations. Now with the new generation of entrepreneurs joining the company, the company aims at expanding on a global scale with the domestic supply and export of Stainless Steel and Nickel Alloys Round Bar, Sheet , Plate and Coil.",
+      link: "https://www.surajmetal.com/about.html",
+      category: "hardware",
+    },
+    {
+      id: 17,
+      name: "PVC Duct & Thunder Hose Pipe",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662836152/PTC/hardware/Thunder_and_hose_pipe_3_e6gg4w.jpg",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662836152/PTC/hardware/Thunder_and_hose_pipe_1_luphbd.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662836152/PTC/hardware/Thunder_and_hose_pipe_2_aplpsr.jpg",
+      ],
+      seller: "Puneet Trading Company",
+      pdf: "https://drive.google.com/file/d/10MHtiP7RJPMvtaKDUswNOaNMLn_-q63S/view?usp=sharing",
+      desp: "It all started way back in 1993 when we had commenced our firm and named it “Punit Trading Company” with a motive of making every hardware-related product available in one place. Then, the motive started expanding with the expansion of our store from a small one consisting of only a few accessories to a large store with our godowns as well. In the meantime, we partnered with some prestigious brands like Asian paints, Berger paints, TATA Agrico, UNIK, JCB, and many more to give variety to our customers. Now, a family-owned and operated business has become the region’s best distributor especially in hardware products that support industrial houses and manufacturers for all their requirements.",
+      link: "https://www.ptchardware.com/about",
+      category: "hardware",
+    },
+    {
+      id: 18,
+      name: "SS Pipes",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662838221/PTC/hardware/SS_pipes_umoxvz.jpg",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662838221/PTC/hardware/SS_pipes_u6berl.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662838221/PTC/hardware/SS_pipes_u6berl.webp",
+      ],
+      seller: "Jindal",
+      pdf: "https://drive.google.com/file/d/12U3mQ_-nQXl36y3cIK5rd8UG76ER2sq2/view?usp=sharing",
+      desp: "Jindal Star a brand of a D.P. Jindal Group has three manufacturing units located in Ghaziabad (Uttar Pradesh), Nagothane (Maharashtra) and Bellary (Karnataka), with a production capacity of 5,00, 000 MT ERW Pipes and Tubes with a thickness from 2.00 mm to 12.7 mm having an outer Diameter ranging from 1/2” to 20” NB as per specifications of IS, BS, API, ASTM, DIN, IBR which conforms to the various international standards. These products are widely used across various industries like agriculture, oil, refinery, public health, housing, irrigation, engineering, fire fighting, tubular poles and structural etc. The company’s Black & Galvanized ERW Steel Tubes Conforming to IS: 1239, IS:3589 ,IS:1161, API 5L (Line Pipe) are few of the largest selling models catering to Plumbing, MEP works, Structural and Oil and Gas applications.",
+      link: "https://www.jindal.com/",
+      category: "hardware",
+    },
+    {
+      id: 19,
+      name: "Agriculture Products",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662841187/PTC/hardware/Agriculture_1_pa1liu.jpg",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662841187/PTC/hardware/aricultural_3_jtojx2.jpg",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662841187/PTC/hardware/Agriculture_2_aserga.jpg",
+      ],
+      seller: "TATA AGRICO",
+      pdf: "https://drive.google.com/file/d/19RgDiBZYUTxi0AdabzlCU7dZffuRhR-j/view?usp=sharing",
+      desp: "Founded by Jamsetji Tata in 1868, the Tata group is a global enterprise headquartered in India, comprising over 100 operating companies in seven business sectors: communications and information technology, engineering, materials, services, energy, consumer products and chemicals. The group has operations in more than 100 countries across six continents, and its companies export products and services to 150 countries. The revenue of Tata companies, taken together, was $103.27 billion (around Rs. 624,757 crore) in 2013-14, with 67.2 percent of this coming from businesses outside India. Tata companies employ over 581,470 people worldwide. Brand Finance, a UK-based consultancy firm, valued the Tata brand at $21.1 billion and ranked it 34th among the top 500 most valuable global brands in their BrandFinance® Global 500 2014 report. Bombay House The Tata name has been respected for more than 140 years for its adherence to strong values and the group has always believed in returning wealth to the society it serves. Two-thirds of the equity of Tata Sons, the Tata group holding company, is held by philanthropic trusts that have created national institutions for science and technology, medical research, social studies and the performing arts.",
+      link: "https://www.tataagrico.com/#about",
+      category: "hardware",
+    },
+    {
+      id: 20,
+      name: "Castex Trolley Wheel",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662839207/PTC/hardware/Trolley_wheel_2_a7o0qq.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662839207/PTC/hardware/Trolley_wheel_3_opuln5.jpg",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662839207/PTC/hardware/Trolley_wheel_1_mtfrxm.jpg",
+      ],
+      seller: "APEX",
+      pdf: "https://drive.google.com/file/d/1WwnnTLzTxc_Y0lg7RO_68ynURjaza2Ne/view?usp=sharing",
+      desp: "Bharat Industrial Corporation is the major supplier and manufacturer of Castor Wheels, Trolley Wheels and Platform Trolleys. Our range start from heavy duty, medium duty and light duty caster Wheels with vast variety of wheel like CP wheel, Nylon wheel, PU wheel, Rubber wheel, Cast Iron caster and many more. We have widely accepted brand series of APEX  a Premium brand of Bharat Industrial corporation. Our products are widely appreciated for their features like durability, fine finish and easy installation. Bharat Industrial Corporation- popularly known by (BIC), works on reputed image at National and international level. We are having a Team of Professionals, Market experienced experts to provide best solution to our customer and understand the demand of Indian Castor & Trolley wheels market. We are leading manufacturers of Heavy Duty, Medium Duty and Light Duty Caster Wheels with variety of wheels i.e CP wheel, Nylon wheel, PU wheel, Rubber wheel, Cast Iron wheel and many more. Our team is a fine mix of Creative Brains, Marketing; Communication & Strategies experts who help us deliver high impact solutions of APEX heavy duty caster wheels. BIC is recognized manufacturing house by the Government of India and has its presence in supplying heavy duty castor & trolley wheels, platform trolleys, ball transfer units, rollers, manual conveyors from last 19 years. Apex caster wheel had Pan India presence with multiple manufacturing units i.e. Bawal and Gurugram. We are also expanding our wings globally with some elite and reputed clients. We had deep penetration in Indian market of Caster wheel, Trolley Wheel and Platform Trolleys.",
+      link: "https://www.apex.ooo/about-bic-apex.php",
+      category: "hardware",
+    },
+    {
+      id: 21,
+      name: "Locks",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662841846/PTC/hardware/locks_1_hjrtch.png",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662841981/PTC/hardware/LOCKS_2_bgfwht.jpg",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662842018/PTC/hardware/LOCKS_3_p5tztx.jpg",
+      ],
+      seller: "Harrison",
+      pdf: "https://drive.google.com/file/d/1276Y9Us_vzNgy5br2vBt2m3zMEGNnK5V/view?usp=sharing",
+      desp: "Over 6 decades, Harrison which has been brand leader in locks & hardware solution. Be fealess & desire for more from HARRISON with a bold thinking and rigorous craftsmanship combine to bring innovative, sturdy products. Harrison a brand, is one of the leading company known for providing best security & hardwaresolutions. We're celebrating 65+ years of setting the standards of excellences and pushing the limits of product design. whether we are bringing to you.",
+      link: "https://www.harrisonlocks.com/about/company-profile",
+      category: "hardware",
+    },
+    {
+      id: 22,
       name: "sanitary",
       img: [
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180502/PTC/hardware/sanitary_fzrlvy.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662842139/PTC/hardware/Sanitary_2_dgwhir.png",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658059921/PTC/hardware/product-500x500_ixu9sc.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658059952/PTC/hardware/ajay-upvc-pipe-fittings-3_growyc.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662842138/PTC/hardware/Sanitary_1_x77jbj.jpg",
       ],
       seller: "Prince",
       pdf: "https://drive.google.com/file/d/1WwnnTLzTxc_Y0lg7RO_68ynURjaza2Ne/view?usp=sharing",
@@ -213,12 +312,12 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 8,
+      id: 23,
       name: "v-Belts",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180688/PTC/hardware/v-belts_pwmdqu.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658060182/PTC/hardware/download_alln0i.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658060185/PTC/hardware/download_1_raafpd.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662842348/PTC/hardware/V-belt_3_cb58hh.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662842301/PTC/hardware/v_belt_2_zn2vzt.jpg",
       ],
       seller: "JK Fenner",
       pdf: "https://drive.google.com/file/d/1GEJXU-GfuysZ1HfSw-hm33CrsbOoUwrL/view?usp=sharing",
@@ -228,7 +327,7 @@ const hardwareItems = () => {
     },
 
     {
-      id: 11,
+      id: 24,
       name: "welding items",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180996/PTC/hardware/welding_n2hno0.webp",
@@ -240,12 +339,12 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 12,
+      id: 25,
       name: "weld mesh net",
       img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662842468/PTC/hardware/weldmesh_nets_qwkdh9.jpg",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181146/PTC/hardware/net_i2b5yp.webp",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658062599/PTC/hardware/download_5_tz49em.webp",
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658062600/PTC/hardware/download_6_yv4aoy.webp",
       ],
       seller: "Tiger Wire Mesh Nets",
       desp: "Tiger Brand is the most popular, renowned and trusted wire mesh brand of India for its unmatched quality and consistency. The brand enjoys unmatched reputation and is the undisputed leader in the industry. The trade mark brand name was adopted in 1964-65, and the manufacturing was established in 1958, by Late Sh. Prithvi Raj Ji, under the name of Calcutta Wire Netting Industries. It has since then followed the same foot steps and enlarged the scope of manufacturing varieties and presently can boast of having the maximum number of looms in India and a manifold types and other metal wire products.",
@@ -253,7 +352,7 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 13,
+      id: 26,
       name: "tarpaulin",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181225/PTC/hardware/Tarpaulin_uoabyx.webp",
@@ -267,7 +366,7 @@ const hardwareItems = () => {
     },
 
     {
-      id: 15,
+      id: 27,
       name: "MS & GI pipes",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656180582/PTC/hardware/MS_GI_pipes_wzwvu2.webp",
@@ -281,7 +380,7 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 16,
+      id: 28,
       name: "insulation items",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181498/PTC/hardware/Insulation_ms0wzl.webp",
@@ -294,7 +393,7 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 17,
+      id: 29,
       name: "measuring items",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181576/PTC/hardware/Measuring-Items-1_pp0brc.webp",
@@ -308,7 +407,7 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 18,
+      id: 30,
       name: "bearings",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181734/PTC/hardware/Bearings_m9gmmx.webp",
@@ -322,7 +421,7 @@ const hardwareItems = () => {
       category: "hardware",
     },
     {
-      id: 19,
+      id: 31,
       name: "tools & accessories ",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181818/PTC/hardware/Tools-nd-accessories_ujrsuw.webp",
@@ -343,9 +442,9 @@ const steelItems = () => {
     // !pdfs and the other inpage content will also be included in this  (another array can be made in the items array!)
     {
       id: 51,
-      name: "shape and sections",
+      name: "MS Angle",
       img: [
-        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072066/PTC/hardware/Shapes_and_Section_vqkchl.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662842975/PTC/hardware/MS_angle_uypkyw.jpg",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072065/PTC/hardware/images_1_jdnj4c.webp",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181970/PTC/steel/Shapes_and_sections_zjrex8.webp",
       ],
@@ -353,6 +452,26 @@ const steelItems = () => {
     },
     {
       id: 52,
+      name: "MS Beam",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662842974/PTC/hardware/beam_vrurjy.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072065/PTC/hardware/images_1_jdnj4c.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181970/PTC/steel/Shapes_and_sections_zjrex8.webp",
+      ],
+      category: "steel",
+    },
+    {
+      id: 53,
+      name: "MS Channel",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662843089/PTC/hardware/MS_channel_pepi6q.jpg",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072065/PTC/hardware/images_1_jdnj4c.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656181970/PTC/steel/Shapes_and_sections_zjrex8.webp",
+      ],
+      category: "steel",
+    },
+    {
+      id: 54,
       name: "round & square pipes",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072165/PTC/hardware/download_19_fih1cx.webp",
@@ -362,7 +481,7 @@ const steelItems = () => {
       category: "steel",
     },
     {
-      id: 53,
+      id: 55,
       name: "MS bar",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656182146/PTC/steel/Ms_bars_myrlpw.webp",
@@ -372,8 +491,18 @@ const steelItems = () => {
       category: "steel",
     },
     {
-      id: 54,
-      name: "coil & plate (MS & GI)",
+      id: 57,
+      name: "MS sheet & plate",
+      img: [
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1662843330/PTC/steel/MS_Sheet_and_Plate_cklqe7.jpg",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072285/PTC/hardware/download_20_awlmrw.webp",
+        "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072288/PTC/hardware/download_21_ekeue0.webp",
+      ],
+      category: "steel",
+    },
+    {
+      id: 58,
+      name: "GI Sheet and Coil",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1656182218/PTC/steel/Coil_and_plate_bhkmfm.webp",
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072285/PTC/hardware/download_20_awlmrw.webp",
@@ -381,8 +510,9 @@ const steelItems = () => {
       ],
       category: "steel",
     },
+
     {
-      id: 55,
+      id: 58,
       name: "flat (MS & SS)",
       img: [
         "https://res.cloudinary.com/dlghjr9qx/image/upload/v1658072481/PTC/hardware/images_3_qbtidy.webp",

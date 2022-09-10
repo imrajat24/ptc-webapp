@@ -1,6 +1,6 @@
 const Stats = () => {
   return (
-    <div className="stats-contain">
+    <div className="stats-contain ">
       <div className="stats row">
         <div className="stats-1">
           <p>Portfolio overview</p>

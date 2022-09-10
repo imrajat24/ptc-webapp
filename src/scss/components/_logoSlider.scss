@@ -1,0 +1,81 @@
+.section-logo-slider {
+  //   background-color: $color-white;
+  padding: 8em 0 15rem 0;
+  overflow: hidden;
+  position: relative;
+  @include respond(tab-pot) {
+    padding-bottom: 8rem !important;
+  }
+
+  // Padding of 15 rem is given to the main container and a negative magrin of 8rem is given to the heading to make the necessary adjustments (15 - 8 -3  = 4rem)
+  &__heading {
+    text-align: center;
+    margin: -10rem 0 4rem 0;
+
+    h2 {
+      font-size: 2.2rem;
+      text-transform: uppercase;
+
+      @include respond(phone) {
+        padding: 0 2rem;
+      }
+    }
+  }
+
+  &__container {
+    display: flex;
+    width: 200%;
+    flex-direction: row;
+    position: absolute;
+    animation: logo-animation 20s linear infinite;
+
+    &__child {
+      width: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      img {
+        width: 5%;
+        @include respond(tab-pot) {
+          width: 6%;
+        }
+      }
+      .small {
+        width: 9%;
+      }
+    }
+
+    @include respond(phone-med) {
+      width: 300%;
+      animation: logo-animation-2 30s linear infinite;
+
+      &__child {
+        width: 150%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        img {
+          width: 6%;
+        }
+      }
+    }
+
+    @include respond(phone) {
+      &__child {
+        img {
+          width: 7%;
+          margin: 0 1rem;
+        }
+      }
+    }
+
+    // @include respond(small-phone) {
+    //   &__child {
+    //     img {
+    //       width: 9%;
+    //     }
+    //   }
+    // }
+  }
+}

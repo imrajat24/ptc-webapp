@@ -1,0 +1,23 @@
+// !Animation to loop the image carousel
+
+@keyframes logo-animation {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+@include respond(phone-med) {
+  @keyframes logo-animation-2 {
+    0% {
+      left: 0;
+    }
+
+    100% {
+      left: -150%;
+    }
+  }
+}

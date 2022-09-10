@@ -4,6 +4,7 @@ import About_portfolio from "../components/About/About_portfolio";
 import About_founder from "../components/About/About_founder";
 import About_partners from "../components/About/About_partners";
 import Location from "../components/Homepage/Sec_location";
+import Stats from "../components/Homepage/Stats";
 import Footer from "../components/Homepage/Footer";
 
 const About = ({ isClicked, setIsClicked }) => {
@@ -13,7 +14,8 @@ const About = ({ isClicked, setIsClicked }) => {
       <About_Hero />
       <About_portfolio />
       <About_founder />
-      <About_partners />
+      {/* <Stats /> */}
+      {/* <About_partners /> */}
       <Location />
       <Footer isClicked={isClicked} setIsClicked={setIsClicked} />
     </div>
