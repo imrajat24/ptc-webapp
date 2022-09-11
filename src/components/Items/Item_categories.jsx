@@ -4,7 +4,7 @@ const Item_categories = ({ products }) => {
   return (
     <section className="item_categories">
       <div className="item_categories-header">
-        <h2 className="heading-section">Categories</h2>
+        {<h2 className="heading-section">Categories</h2>}
         <h4>
           We offer the following categories to find the best fit as per the
           requirements.
@@ -18,7 +18,9 @@ const Item_categories = ({ products }) => {
                 <img src={item.img[0]} alt={item.name} />
               </div>
               <div className="item-card--title">
-                <h3>{item.name}</h3>
+                <h3 className={item.name.length > 23 ? "text-small" : ""}>
+                  {item.name}
+                </h3>
                 {item.category === "hardware" ? (
                   <Link to={`/item_content/${item.id}`} onClick={scrollToTop}>
                     <button className="btn btn-card btn-pri">View More</button>

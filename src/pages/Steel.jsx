@@ -7,9 +7,9 @@ import { useState } from "react";
 
 const Steel = ({ isClicked, setIsClicked }) => {
   const info = {
-    heading: "Steel",
+    heading: "Punit Steel & Hardware Store",
     description:
-      "Fulfilling your steel requirements with a variety of range and various brands options such as UNIK, Mangala ISPAT, JINDAL STAR, APL APOLLO, etc to cover all your needs in a single click.",
+      "It all started way back in 2016 when we had commenced our new firm after having an experience of 20 years in the industry and named it “Punit Steel and Hardware Store” with a motive of making every steel-related product available in one place.",
   };
   const [items, setItems] = useState(steelItems);
 

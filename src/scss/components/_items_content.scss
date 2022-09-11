@@ -87,6 +87,13 @@
   }
 }
 
+@include respond(tab-pot) {
+  #glider-main {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
 @include respond(phone-med) {
   .glider,
   .glider-contain {
