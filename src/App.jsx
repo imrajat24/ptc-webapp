@@ -6,11 +6,13 @@ import Steel from "./pages/Steel";
 import Item_content from "./components/Items/Item_content";
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
+import Certificates from "./pages/Certificates";
 function App() {
   // state to cross check which menu item in navigation is currently clicked
   const [isClicked, setIsClicked] = useState({
     home: true,
     about: false,
+    certificate: false,
     harware: false,
     steel: false,
     contact: false,
@@ -30,6 +32,13 @@ function App() {
           path="/about"
           exact
           element={<About isClicked={isClicked} setIsClicked={setIsClicked} />}
+        />
+        <Route
+          path="/certificates"
+          exact
+          element={
+            <Certificates isClicked={isClicked} setIsClicked={setIsClicked} />
+          }
         />
         <Route
           path="/hardware"

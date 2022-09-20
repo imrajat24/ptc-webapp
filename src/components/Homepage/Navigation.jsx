@@ -40,6 +40,7 @@ const Navigation = ({ isClicked, setIsClicked }) => {
                 setIsClicked({
                   home: true,
                   about: false,
+                  certificate: false,
                   hardware: false,
                   steel: false,
                 });
@@ -56,6 +57,7 @@ const Navigation = ({ isClicked, setIsClicked }) => {
                 setIsClicked({
                   home: false,
                   about: !isClicked.about,
+                  certificate: false,
                   hardware: false,
                   steel: false,
                 });
@@ -66,12 +68,30 @@ const Navigation = ({ isClicked, setIsClicked }) => {
           </li>
           <li>
             <Link
+              to="/certificates"
+              className={isClicked.certificate ? "active" : ""}
+              onClick={() => {
+                setIsClicked({
+                  home: false,
+                  about: false,
+                  certificate: !isClicked.certificate,
+                  hardware: false,
+                  steel: false,
+                });
+              }}
+            >
+              Certificates
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/hardware"
               className={isClicked.hardware ? "active" : ""}
               onClick={() => {
                 setIsClicked({
                   home: false,
                   about: false,
+                  certificate: false,
                   hardware: !isClicked.hardware,
                   steel: false,
                 });
@@ -88,6 +108,7 @@ const Navigation = ({ isClicked, setIsClicked }) => {
                 setIsClicked({
                   home: false,
                   about: false,
+                  certificate: false,
                   hardware: false,
                   steel: !isClicked.steel,
                 });
