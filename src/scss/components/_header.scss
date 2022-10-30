@@ -108,6 +108,8 @@
       }
       .btn-header {
         display: block;
+        pointer-events: all;
+
         width: 100%;
         text-align: center;
         left: 2rem;
