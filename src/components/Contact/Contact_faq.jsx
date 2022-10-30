@@ -12,7 +12,7 @@ const Contact_faq = () => {
   const handleForm = async (e) => {
     e.preventDefault();
     const url =
-      "https://hooks.slack.com/services/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";
+      "https://hooks.slack.com/services/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";
 
     const data = {
       text: `Name: ${name}\n Email: ${email}\n Number: ${number}\n Query: ${query}\n Image: ${file}`,
