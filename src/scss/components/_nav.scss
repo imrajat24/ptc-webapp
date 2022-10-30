@@ -37,6 +37,7 @@
   }
   &_menu {
     width: 40%;
+
     ul {
       display: flex;
       justify-content: space-between;
@@ -76,9 +77,9 @@
   display: none;
   pointer-events: none;
   right: 5rem;
+  // top: 50%;
   top: 4rem;
   cursor: pointer;
-  transform: translateY(-50%);
   img {
     width: 100%;
   }
@@ -131,7 +132,7 @@
   .hamburger_icn {
     display: inline-block;
     pointer-events: all;
-    top: 3.5rem;
+    // top: 3.5rem;
     width: 4%;
   }
 }
@@ -146,11 +147,12 @@
     }
   }
   .hamburger_icn {
-    width: 5%;
+    width: 6%;
+    top: 3rem;
   }
 }
 @include respond(small-phone) {
   .hamburger_icn {
-    top: 3rem;
+    top: 3.5rem;
   }
 }

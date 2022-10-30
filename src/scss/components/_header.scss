@@ -47,6 +47,13 @@
         }
       }
     }
+
+    .btn-header {
+      display: none;
+      pointer-events: none;
+      position: absolute;
+      bottom: -50%;
+    }
     // !main media query to turn layout into potrait mode (992px tab-pot)
     @include respond(tab-pot) {
       flex-direction: column;
@@ -74,8 +81,10 @@
         }
       }
       .whatsApp-btn {
-        bottom: -45%;
-        right: 41.5%;
+        // bottom: -45%;
+        // right: 41.5%;
+        display: none;
+        pointer-events: none;
         a {
           img {
             width: 30%;
@@ -96,6 +105,13 @@
             width: 30%;
           }
         }
+      }
+      .btn-header {
+        display: block;
+        width: 100%;
+        text-align: center;
+        left: 2rem;
+        // pointer-events: none;
       }
     }
 
@@ -121,6 +137,9 @@
             width: 25%;
           }
         }
+      }
+      .btn-header {
+        bottom: -53%; // pointer-events: none;
       }
     }
 

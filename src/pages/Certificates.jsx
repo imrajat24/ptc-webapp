@@ -67,22 +67,22 @@ const Certificates = ({ isClicked, setIsClicked }) => {
             <ModalImage
               small="https://res.cloudinary.com/dlghjr9qx/image/upload/v1663703690/PTC/certificates/yuva_z5h4yy.jpg"
               large="https://res.cloudinary.com/dlghjr9qx/image/upload/v1663703690/PTC/certificates/yuva_z5h4yy.jpg"
-              alt="FOSROC-Certificate"
+              alt="Great Yuva-Certificate"
               className="modal-land"
             />
           </div>
           <div className="image">
             <ModalImage
-              small="https://res.cloudinary.com/dlghjr9qx/image/upload/v1663703689/PTC/certificates/caparo_q5wmc4.jpg"
-              large="https://res.cloudinary.com/dlghjr9qx/image/upload/v1663703689/PTC/certificates/caparo_q5wmc4.jpg"
+              small="https://res.cloudinary.com/dlghjr9qx/image/upload/v1667155679/PTC/certificates/caparo_p9opau.jpg"
+              large="https://res.cloudinary.com/dlghjr9qx/image/upload/v1667155679/PTC/certificates/caparo_p9opau.jpg"
               alt="CAPARO-Certificate"
               className="modal-land"
             />
           </div>
           <div className="image">
             <ModalImage
-              small="https://res.cloudinary.com/dlghjr9qx/image/upload/v1663703690/PTC/certificates/ferroTerro_pwondw.jpg"
-              large="https://res.cloudinary.com/dlghjr9qx/image/upload/v1663703690/PTC/certificates/ferroTerro_pwondw.jpg"
+              small="https://res.cloudinary.com/dlghjr9qx/image/upload/v1667155678/PTC/certificates/ferroterro_qjm9zq.jpg"
+              large="https://res.cloudinary.com/dlghjr9qx/image/upload/v1667155678/PTC/certificates/ferroterro_qjm9zq.jpg"
               alt="FERRETERRO-Certificate"
               className="modal-land"
             />

@@ -56,6 +56,11 @@ const Header = () => {
               <img src={whatsAppImg} alt="whatsApp-btn" />
             </a>
           </div>
+          <div id="" className=" btn-header">
+            <Link to="/contact" className="btn btn-pri">
+              Contact Us
+            </Link>
+          </div>
         </div>
       </div>
     </div>

@@ -21,7 +21,7 @@ const Contact_header = () => {
             <h2>call now</h2>
           </div>
           <div className="contact_header-cards_card--content">
-            <p> Let's connect on a call between 10 am-7 pm</p>
+            <p> We're available on +917229876091 between 10AM - 7PM</p>
           </div>
           <div className="contact_header-cards_card--btn">
             <a href="tel:7229876091">
