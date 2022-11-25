@@ -115,6 +115,7 @@ const Contact_faq = () => {
             method="POST"
             data-netlify="true"
             enctype="multipart/form-data"
+            action="https://submit-form.com/3pdFcOqH"
           >
             <input
               type="text"
@@ -149,7 +150,7 @@ const Contact_faq = () => {
             <button
               type="submit"
               className="btn btn-pri"
-              onClick={(e) => handleForm(e)}
+              // onClick={(e) => handleForm(e)}
             >
               Submit query
             </button>

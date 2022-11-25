@@ -95,6 +95,14 @@ const Certificates = ({ isClicked, setIsClicked }) => {
               className="modal-land"
             />
           </div>
+          <div className="image">
+            <ModalImage
+              small="https://res.cloudinary.com/dlghjr9qx/image/upload/v1669388330/PTC/FLOWWELL_HDPE_PIPE_DEALER_CERTIFICATE_page-0001_ciyjm8.jpg"
+              large="https://res.cloudinary.com/dlghjr9qx/image/upload/v1669388330/PTC/FLOWWELL_HDPE_PIPE_DEALER_CERTIFICATE_page-0001_ciyjm8.jpg"
+              alt="Flow-Well Profiles"
+              className="modal-land"
+            />
+          </div>
         </div>
       </div>
       <Footer isClicked={isClicked} setIsClicked={setIsClicked} />
