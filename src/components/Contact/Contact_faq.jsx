@@ -111,11 +111,8 @@ const Contact_faq = () => {
         </div>
         <div className="contact_faq--query-form">
           <form
-            name="query-form"
-            method="POST"
-            data-netlify="true"
-            enctype="multipart/form-data"
             action="https://submit-form.com/3pdFcOqH"
+            enctype="multipart/form-data"
           >
             <input
               type="text"
@@ -144,8 +141,8 @@ const Contact_faq = () => {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
             />
-            <label>add product's image</label>
-            <DragDrop setFile={setFile} />
+            {/* <label>add product's image</label> */}
+            {/* <DragDrop setFile={setFile} /> */}
             {/* <input name="file" type="file" /> */}
             <button
               type="submit"
