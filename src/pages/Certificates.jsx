@@ -103,6 +103,14 @@ const Certificates = ({ isClicked, setIsClicked }) => {
               className="modal-land"
             />
           </div>
+          <div className="image">
+            <ModalImage
+              small="https://res.cloudinary.com/dlghjr9qx/image/upload/v1682449660/PTC/certificates/WhatsApp_Image_2023-04-17_at_2.51.06_PM_qbnlki.jpg"
+              large="https://res.cloudinary.com/dlghjr9qx/image/upload/v1682449660/PTC/certificates/WhatsApp_Image_2023-04-17_at_2.51.06_PM_qbnlki.jpg"
+              alt="Flow-Well Profiles"
+              className="modal-land"
+            />
+          </div>
         </div>
       </div>
       <Footer isClicked={isClicked} setIsClicked={setIsClicked} />
